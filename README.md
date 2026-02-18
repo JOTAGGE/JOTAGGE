@@ -11,5 +11,6 @@ Node.js | React | PostgreSQL
 - BlueBoard (em desenvolvimento)
 
 📫 Contato:
+- Site: https://jottagge-hub.vercel.app/
 - LinkedIn: www.linkedin.com/in/josé-gabriel-a02125234
 - Email: jg.barros.dsantos@gmail.com
