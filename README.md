@@ -1,88 +1,106 @@
 # José Gabriel Barros dos Santos
 
-### Fullstack JavaScript Developer
+### Fullstack Developer · Product Builder · Creative Technologist
 
-I build complete digital products — from interfaces and frontend systems to APIs, databases and backend architecture.
+I build **software, systems and digital products** — from interfaces and frontend architecture to APIs, databases, backend systems and production deployments.
 
-My main focus is **JavaScript/TypeScript development**, with experience and ongoing work across web applications, APIs, mobile applications and digital products.
+My work sits at the intersection of **software engineering, product development, design and experimentation**, with a strong focus on JavaScript and TypeScript.
+
+> I build systems. I design experiences. I create worlds.
 
 ---
 
 ## ⚡ What I build
 
 - Fullstack web applications
-- REST APIs and backend systems
-- Modern frontend interfaces
+- APIs and backend systems
+- Modern frontend architectures
 - Mobile applications
-- Digital products and prototypes
-- Experimental software and interfaces
+- Digital products and internal tools
+- Experimental software and prototypes
+- Interfaces and digital experiences
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
+### Frontend
 
-React · TypeScript · JavaScript · HTML · CSS · Next.js
+React · TypeScript · JavaScript · Next.js · HTML · CSS
 
-**Backend**
+### Backend
 
 Node.js · Express · REST APIs
 
-**Database**
+### Database
 
 PostgreSQL · Firebase
 
-**Mobile**
+### Mobile
 
 React Native · Flutter
 
-**Tools & Infrastructure**
+### Tools & Infrastructure
 
-Git · GitHub · Vercel · Docker
+Git · GitHub · Docker · Vercel
 
 ---
 
 ## 🚀 Currently building
 
-### Blue Lab
+### BLUE LAB
 
-A technology and product ecosystem focused on building digital products, experiments and software solutions.
+An experimental technology and creative research laboratory focused on exploring ideas, building software, testing systems and turning concepts into functional experiments.
 
 ### NOMA
 
-A digital services brand focused on creating websites, applications and digital solutions for real-world needs.
+An independent design and technology practice focused on creating websites, digital products, systems and solutions for real-world businesses and projects.
 
-### Kratos
+### KRATOS
 
-A mobile fitness application currently being developed with Flutter and Firebase.
+A fitness application exploring training, personal data and digital fitness experiences through mobile technology.
 
 ### BlueBoard
 
-A fullstack application focused on building a complete and maintainable product architecture.
+A fullstack application focused on product architecture, maintainability and the development of complete software systems.
 
 ---
 
-## 🧪 Exploring
-
-I'm currently exploring:
+## 🧪 Current areas of exploration
 
 - Software architecture
-- Product development
+- Fullstack product development
+- Backend systems and APIs
 - Mobile development
-- UI/UX systems
 - Cloud infrastructure
-- AI-powered applications
-- Digital product development
+- UI and digital experiences
+- Artificial intelligence
+- Experimental technology
+- Product thinking
+
+---
+
+## 🧭 My ecosystem
+
+My work currently develops across a few interconnected spaces:
+
+**JOTAGGE**  
+My personal archive and professional body of work — software, design, research, music, writing and experimentation.
+
+**BLUE LAB**  
+Research, experimentation and exploration of technology, systems and new ideas.
+
+**NOMA**  
+The commercial layer — turning design and technology into products and services for real-world clients.
 
 ---
 
 ## 🌐 Find me
 
-**Portfolio:**  
+**Portfolio**  
 https://jottagge.vercel.app/
 
-**LinkedIn:**  
+**LinkedIn**  
 https://www.linkedin.com/in/josé-gabriel-a02125234
 
 ---
