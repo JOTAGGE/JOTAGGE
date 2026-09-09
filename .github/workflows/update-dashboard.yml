@@ -1,0 +1,46 @@
+name: Update live profile dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 9 * * *'
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'README.md'
+      - 'assets/dashboard.svg'
+      - 'data/dashboard.json'
+
+permissions:
+  contents: write
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate dashboard
+        env:
+          PROFILE_USERNAME: JOTAGGE
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_DASHBOARD_TOKEN: ${{ secrets.PROFILE_DASHBOARD_TOKEN }}
+        run: node scripts/update-dashboard.mjs
+
+      - name: Commit regenerated dashboard
+        run: |
+          if git diff --quiet; then
+            echo "Dashboard already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/dashboard.svg data/dashboard.json
+          git commit -m "chore: refresh live profile dashboard"
+          git push

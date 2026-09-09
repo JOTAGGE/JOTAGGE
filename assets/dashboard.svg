@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <rect width="100%" height="100%" rx="24" fill="#0b0b0c"/>
+  <rect x="18" y="18" width="864" height="264" rx="18" fill="none" stroke="#2a2a2d"/>
+  <text x="46" y="62" fill="#ffffff" font-size="22" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700">JOTAGGE / LIVE SYSTEM</text>
+  <text x="46" y="94" fill="#8d8d92" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">REPOSITORY-DRIVEN PROFILE DASHBOARD</text>
+  <text x="46" y="152" fill="#ffffff" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">STATUS</text>
+  <text x="190" y="152" fill="#d7d7d7" font-size="17" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">BOOTSTRAPPED</text>
+  <text x="46" y="197" fill="#8d8d92" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">The first workflow run will scan repositories and replace this card with live technology telemetry.</text>
+  <text x="46" y="245" fill="#68686d" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">GitHub Actions · manifest detection · language signals · recency weighting</text>
+</svg>
