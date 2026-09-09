@@ -1,9 +1,161 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": null,
-  "visibility": "pending-first-run",
-  "repoCount": 0,
-  "activeCount": 0,
-  "tech": [],
-  "projects": []
+  "generatedAt": "2026-09-09T05:14:52.015Z",
+  "visibility": "public",
+  "repoCount": 5,
+  "activeCount": 3,
+  "tech": [
+    {
+      "name": "JavaScript",
+      "score": 8,
+      "projects": 5
+    },
+    {
+      "name": "Node.js",
+      "score": 8,
+      "projects": 5
+    },
+    {
+      "name": "React",
+      "score": 8,
+      "projects": 5
+    },
+    {
+      "name": "CSS",
+      "score": 7,
+      "projects": 4
+    },
+    {
+      "name": "TypeScript",
+      "score": 7,
+      "projects": 4
+    },
+    {
+      "name": "HTML",
+      "score": 5,
+      "projects": 3
+    },
+    {
+      "name": "Vite",
+      "score": 5,
+      "projects": 3
+    },
+    {
+      "name": "Express",
+      "score": 3,
+      "projects": 2
+    },
+    {
+      "name": "Tailwind",
+      "score": 3,
+      "projects": 2
+    },
+    {
+      "name": "Next.js",
+      "score": 2,
+      "projects": 1
+    },
+    {
+      "name": "Prisma",
+      "score": 2,
+      "projects": 1
+    }
+  ],
+  "projects": [
+    {
+      "name": "ANDY-SAMBERG-GALLERY",
+      "url": "https://github.com/JOTAGGE/ANDY-SAMBERG-GALLERY",
+      "description": "",
+      "private": false,
+      "pushedAt": "2026-08-23T02:17:41Z",
+      "updatedAt": "2026-08-23T02:17:51Z",
+      "stars": 0,
+      "techs": [
+        "TypeScript",
+        "JavaScript",
+        "CSS",
+        "React",
+        "Next.js",
+        "Tailwind",
+        "Node.js"
+      ],
+      "weight": 2
+    },
+    {
+      "name": "BlueBoard",
+      "url": "https://github.com/JOTAGGE/BlueBoard",
+      "description": "",
+      "private": false,
+      "pushedAt": "2026-08-21T01:13:08Z",
+      "updatedAt": "2026-08-21T01:13:38Z",
+      "stars": 0,
+      "techs": [
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Express",
+        "Prisma",
+        "Node.js",
+        "React",
+        "Vite"
+      ],
+      "weight": 2
+    },
+    {
+      "name": "SITE-GERMANA-PROTOTIPO",
+      "url": "https://github.com/JOTAGGE/SITE-GERMANA-PROTOTIPO",
+      "description": "",
+      "private": false,
+      "pushedAt": "2026-08-16T18:11:29Z",
+      "updatedAt": "2026-08-16T18:12:05Z",
+      "stars": 0,
+      "techs": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "React",
+        "Vite",
+        "Node.js",
+        "JavaScript"
+      ],
+      "weight": 2
+    },
+    {
+      "name": "Germana-Corpo-Ativo",
+      "url": "https://github.com/JOTAGGE/Germana-Corpo-Ativo",
+      "description": "Site",
+      "private": false,
+      "pushedAt": "2025-08-18T17:56:08Z",
+      "updatedAt": "2026-02-26T14:25:38Z",
+      "stars": 0,
+      "techs": [
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "React",
+        "Vite",
+        "Tailwind",
+        "Node.js"
+      ],
+      "weight": 1
+    },
+    {
+      "name": "Equipe-Glasgow-PDM",
+      "url": "https://github.com/JOTAGGE/Equipe-Glasgow-PDM",
+      "description": "Projeto final de Programação Para Dispositivos.",
+      "private": false,
+      "pushedAt": "2025-06-10T21:29:11Z",
+      "updatedAt": "2026-09-01T00:35:25Z",
+      "stars": 0,
+      "techs": [
+        "JavaScript",
+        "TypeScript",
+        "Express",
+        "Node.js",
+        "React"
+      ],
+      "weight": 1
+    }
+  ]
 }
