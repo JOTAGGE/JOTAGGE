@@ -1,3 +1,4 @@
+<!-- profile-refresh: 2026-09-09T05:24Z -->
 # José Gabriel Barros dos Santos
 
 ### Fullstack Developer · Product Builder · Creative Technologist
@@ -15,7 +16,7 @@ I build **software, systems and digital products** — from interfaces and front
 
 <!-- DASHBOARD:START -->
 <p align="center">
-  <img src="./assets/dashboard.svg" alt="Live GitHub technology dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/JOTAGGE/JOTAGGE/main/assets/dashboard.svg?v=20260909-0524" alt="Live GitHub technology dashboard" width="100%" />
 </p>
 
 ### Current technology signal
