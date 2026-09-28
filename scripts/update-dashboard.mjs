@@ -284,119 +284,46 @@ function markdownBadge(name) {
 }
 
 function renderSvg(stats) {
-  const width = 960;
-  const height = 540;
-  const topTech = stats.tech.slice(0, 6);
+  const width = 900;
+  const height = 440;
+  const topTech = stats.tech
+    .filter(t => t.name !== 'HTML' && t.name !== 'CSS')
+    .slice(0, 8);
   const maxScore = Math.max(1, ...topTech.map(x => x.score));
-  const recentProjects = stats.projects.slice(0, 4);
 
-  // Render project cards
-  const projectCards = recentProjects.map((p, i) => {
-    const y = 118 + i * 92;
-    const status = getStatusBadge(p.lastCommit.date);
-    const dateFormatted = formatDateBR(p.lastCommit.date);
-    const commitMsg = truncate(p.lastCommit.message, 52);
-    const sha = p.lastCommit.sha || 'HEAD';
-
-    // Tech chips for this project (up to 4)
-    let chipX = 75;
-    const chipsSvg = p.techs.slice(0, 4).map(tname => {
-      const meta = techMeta[tname] || { color: '94a3b8', label: tname };
-      const label = meta.label || tname;
-      const chipW = Math.max(36, label.length * 6.8 + 14);
-      const curX = chipX;
-      chipX += chipW + 6;
-      return `<rect x="${curX}" y="${y + 57}" width="${chipW}" height="18" rx="4" fill="#141824" stroke="#${meta.color}" stroke-opacity="0.5" stroke-width="1"/><text x="${curX + chipW / 2}" y="${y + 70}" fill="#${meta.color}" font-size="10" font-family="ui-monospace, monospace" font-weight="600" text-anchor="middle">${esc(label)}</text>`;
-    }).join('');
-
-    return `
-    <!-- Card ${i}: ${esc(p.name)} -->
-    <rect x="45" y="${y}" width="550" height="82" rx="10" fill="url(#cardGrad)" stroke="#1e2436" stroke-width="1"/>
-    <circle cx="62" cy="${y + 24}" r="4" fill="${status.color}"/>
-    <text x="75" y="${y + 28}" fill="#f8fafc" font-size="14" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">${esc(p.name)}</text>
-    <rect x="382" y="${y + 14}" width="58" height="20" rx="4" fill="#182033" stroke="#25324d" stroke-width="0.8"/>
-    <text x="411" y="${y + 28}" fill="#38bdf8" font-size="10" font-family="ui-monospace, monospace" text-anchor="middle">${esc(sha)}</text>
-    <text x="575" y="${y + 27}" fill="#64748b" font-size="11" font-family="ui-monospace, monospace" text-anchor="end">${esc(dateFormatted)}</text>
-    <text x="75" y="${y + 48}" fill="#94a3b8" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">💬 ${esc(commitMsg)}</text>
-    ${chipsSvg}`;
-  }).join('');
-
-  // Render tech bars
-  const techBars = topTech.map((t, i) => {
-    const y = 118 + i * 40;
-    const meta = techMeta[t.name] || { color: '38bdf8' };
-    const barWidth = Math.max(10, Math.round((t.score / maxScore) * 295));
-    return `
-    <text x="625" y="${y + 15}" fill="#e2e8f0" font-size="12" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">${esc(t.name)}</text>
-    <text x="920" y="${y + 15}" fill="#64748b" font-size="11" font-family="ui-monospace, monospace" text-anchor="end">${t.projects} repos</text>
-    <rect x="625" y="${y + 23}" width="295" height="7" rx="3.5" fill="#171c2b"/>
-    <rect x="625" y="${y + 23}" width="${barWidth}" height="7" rx="3.5" fill="#${meta.color}"/>`;
+  const bars = topTech.map((t, i) => {
+    const y = 155 + i * 32;
+    const meta = techMeta[t.name] || { color: 'f0f0f0' };
+    const barWidth = Math.max(10, Math.round((t.score / maxScore) * 380));
+    return `<text x="46" y="${y}" fill="#d7d7d7" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">${esc(t.name)}</text><rect x="190" y="${y - 13}" width="380" height="14" rx="7" fill="#181a20"/><rect x="190" y="${y - 13}" width="${barWidth}" height="14" rx="7" fill="#${meta.color}"/><text x="585" y="${y}" fill="#9b9b9b" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">${t.projects} repos</text>`;
   }).join('');
 
   const formattedDateUTC = stats.generatedAt.slice(0, 16).replace('T', ' ');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0c12"/>
-      <stop offset="100%" stop-color="#121622"/>
-    </linearGradient>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#141824"/>
-      <stop offset="100%" stop-color="#0f121d"/>
-    </linearGradient>
-    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#c084fc"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Canvas Background -->
-  <rect width="${width}" height="${height}" rx="20" fill="url(#bgGrad)" stroke="#1e2436" stroke-width="1.5"/>
-  <rect x="2" y="2" width="${width - 4}" height="3" rx="1.5" fill="url(#brandGrad)"/>
-
-  <!-- Top Header -->
-  <circle cx="50" cy="46" r="5" fill="#10b981"/>
-  <circle cx="50" cy="46" r="9" fill="#10b981" fill-opacity="0.2"/>
-  <text x="68" y="44" fill="#ffffff" font-size="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" letter-spacing="0.5">JOTAGGE // DEV ACTIVITY &amp; REPOSITORIES</text>
-  <text x="68" y="62" fill="#64748b" font-size="11" font-family="ui-monospace, monospace" letter-spacing="0.4">ÚLTIMOS PROJETOS COMMITADOS E STACK DETECTADA</text>
-
-  <!-- Top Metric Badges -->
-  <rect x="635" y="34" width="85" height="26" rx="13" fill="#141926" stroke="#252d42" stroke-width="1"/>
-  <text x="677" y="51" fill="#94a3b8" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle">⚡ ${stats.repoCount} Repos</text>
-
-  <rect x="730" y="34" width="92" height="26" rx="13" fill="#141926" stroke="#252d42" stroke-width="1"/>
-  <text x="776" y="51" fill="#94a3b8" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle">🔥 ${stats.activeCount} Ativos</text>
-
-  <rect x="832" y="34" width="88" height="26" rx="13" fill="#141926" stroke="#252d42" stroke-width="1"/>
-  <text x="876" y="51" fill="#94a3b8" font-size="11" font-family="ui-monospace, monospace" text-anchor="middle">📦 ${stats.tech.length} Techs</text>
-
-  <!-- Section Column Headers -->
-  <text x="45" y="103" fill="#94a3b8" font-size="11" font-family="ui-monospace, monospace" font-weight="700" letter-spacing="1">📌 PROJETOS RECENTES COMMITADOS</text>
-  <text x="625" y="103" fill="#94a3b8" font-size="11" font-family="ui-monospace, monospace" font-weight="700" letter-spacing="1">📊 STACK EM DESTAQUE</text>
-
-  <!-- Left Column: Project Cards -->
-  ${projectCards}
-
-  <!-- Right Column: Tech Radar -->
-  ${techBars}
-
-  <!-- Right Column: Engineering Focus Box -->
-  <rect x="625" y="380" width="295" height="106" rx="10" fill="url(#cardGrad)" stroke="#1e2436" stroke-width="1"/>
-  <text x="642" y="405" fill="#38bdf8" font-size="11" font-family="ui-monospace, monospace" font-weight="700" letter-spacing="0.8">⚡ ENGENHARIA &amp; STACK</text>
-  <text x="642" y="427" fill="#f1f5f9" font-size="12" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">Arquitetura Fullstack &amp; Sistemas</text>
-  <text x="642" y="447" fill="#94a3b8" font-size="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">TypeScript · React · Next.js · Node.js</text>
-  <text x="642" y="469" fill="#10b981" font-size="11" font-family="ui-monospace, monospace">● Repositórios sincronizados</text>
-
-  <!-- Footer -->
-  <text x="45" y="516" fill="#475569" font-size="10" font-family="ui-monospace, monospace">Auto-atualizado via GitHub Actions · Última varredura: ${formattedDateUTC} UTC</text>
-  <text x="920" y="516" fill="#475569" font-size="10" font-family="ui-monospace, monospace" text-anchor="end">github.com/JOTAGGE</text>
+  <rect width="100%" height="100%" rx="24" fill="#0b0b0e"/>
+  <rect x="18" y="18" width="${width - 36}" height="${height - 36}" rx="18" fill="none" stroke="#232634" stroke-width="1.5"/>
+  <circle cx="48" cy="54" r="5" fill="#10b981"/>
+  <text x="64" y="58" fill="#ffffff" font-size="20" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700">JOTAGGE / LIVE SYSTEM</text>
+  <text x="46" y="88" fill="#8d8d92" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">AUTO-GENERATED FROM REPOSITORY &amp; COMMIT SIGNALS</text>
+  <text x="46" y="125" fill="#ffffff" font-size="15" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700">MOST USED TECHNOLOGIES</text>
+  ${bars}
+  <text x="690" y="148" fill="#8d8d92" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">REPOSITORIES</text>
+  <text x="690" y="183" fill="#ffffff" font-size="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700">${stats.repoCount}</text>
+  <text x="690" y="232" fill="#8d8d92" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">ACTIVE ≤ 60D</text>
+  <text x="690" y="267" fill="#38bdf8" font-size="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700">${stats.activeCount}</text>
+  <text x="690" y="316" fill="#8d8d92" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">TECH SIGNALS</text>
+  <text x="690" y="351" fill="#10b981" font-size="32" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700">${stats.tech.length}</text>
+  <text x="46" y="405" fill="#68686d" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">updated ${esc(formattedDateUTC)} UTC · recency-weighted</text>
 </svg>`;
 }
 
 function renderDashboard(stats) {
-  const topBadges = stats.tech.slice(0, 10).map(t => markdownBadge(t.name)).join(' ');
+  const topBadges = stats.tech
+    .filter(t => t.name !== 'HTML' && t.name !== 'CSS')
+    .slice(0, 10)
+    .map(t => markdownBadge(t.name))
+    .join(' ');
 
   const projectRows = stats.projects.slice(0, 10).map(p => {
     const status = getStatusBadge(p.lastCommit.date);
@@ -405,23 +332,19 @@ function renderDashboard(stats) {
     const dateFormatted = formatDateBR(p.lastCommit.date);
     const commitMsg = p.lastCommit.message ? `<br/>💬 *${esc(truncate(p.lastCommit.message, 50))}*` : '';
     const shaLink = p.lastCommit.sha ? `[\`${p.lastCommit.sha}\`](${p.lastCommit.url}) · ` : '';
-    const techBadges = p.techs.slice(0, 5).map(t => markdownBadge(t)).join(' ') || '<sub>Varredura pendente</sub>';
+    const techBadges = p.techs.slice(0, 5).map(t => markdownBadge(t)).join(' ') || '<sub>Scan pendente</sub>';
 
     return `| [**${p.name}**](${p.url})${privacy}${desc} | ${shaLink}**${dateFormatted}**${commitMsg} | ${techBadges} | ${status.dot} ${status.label} |`;
   }).join('\n');
 
-  const techRows = stats.tech.map((t, i) =>
-    `| ${i + 1} | **${t.name}** | ${t.projects} | ${t.score} |`
-  ).join('\n');
-
   return `<!-- DASHBOARD:START -->
 <p align="center">
-  <img src="./assets/dashboard.svg" alt="Dashboard de Projetos e Tecnologias Recentes - JOTAGGE" width="100%" />
+  <img src="assets/dashboard.svg" alt="Live GitHub technology dashboard" width="100%" />
 </p>
 
 ### 🚀 Últimos Projetos Commitados & Stack
 
-| Repositório | Último Commit | Tecnologias Detectadas | Status |
+| Repositório | Último Commit | Tecnologias Principais | Status |
 | :--- | :--- | :--- | :---: |
 ${projectRows || '| — | — | — | — |'}
 
@@ -434,21 +357,11 @@ ${projectRows || '| — | — | — | — |'}
 > ℹ️ *Esta stack e histórico de projetos são **calculados dinamicamente** a partir dos repositórios, analisando código-fonte, manifestos (\`package.json\`, etc.) e os commits mais recentes.*
 
 <details>
-<summary><strong>📊 Telemetria detalhada de tecnologias</strong> (expandir ranking completo)</summary>
-
-| # | Tecnologia | Repositórios | Pontuação Ponderada |
-|---:|---|---:|---:|
-${techRows || '| — | Nenhuma tecnologia detectada | — | — |'}
-
-*A pontuação é ponderada por recência: projetos com commits nos últimos 14 dias possuem peso 3, até 60 dias possuem peso 2, e projetos mais antigos possuem peso 1.*
-</details>
-
-<details>
 <summary><strong>⚙️ Como funciona este dashboard automatizado</strong></summary>
 
 Um fluxo do GitHub Actions executa diariamente e a cada push, inspecionando os repositórios (incluindo privados quando o segredo <code>PROFILE_DASHBOARD_TOKEN</code> está configurado), analisando linguagens, manifestos de dependência e os últimos commits efetuados.
 
-A partir desses dados, o script Node.js gera o SVG visual de telemetria, atualiza o arquivo de dados <code>data/dashboard.json</code> e reconstrói este bloco no <code>README.md</code> de forma 100% autônoma.
+A partir desses dados, o script Node.js gera o SVG visual de tecnologias mais usadas, atualiza o arquivo de dados <code>data/dashboard.json</code> e reconstrói este bloco no <code>README.md</code> de forma 100% autônoma.
 </details>
 <!-- DASHBOARD:END -->`;
 }
