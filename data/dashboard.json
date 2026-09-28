@@ -1,6 +1,6 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-09-27T14:43:21.356Z",
+  "generatedAt": "2026-09-28T16:24:33.311Z",
   "visibility": "public",
   "repoCount": 5,
   "activeCount": 3,
@@ -71,14 +71,20 @@
       "updatedAt": "2026-08-23T02:17:51Z",
       "stars": 0,
       "techs": [
-        "TypeScript",
-        "JavaScript",
-        "CSS",
-        "React",
         "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
         "Tailwind",
-        "Node.js"
+        "JavaScript",
+        "CSS"
       ],
+      "lastCommit": {
+        "sha": "ccf87a6",
+        "message": "celeste e jesse png",
+        "date": "2026-08-23T02:17:35Z",
+        "url": "https://github.com/JOTAGGE/ANDY-SAMBERG-GALLERY/commit/ccf87a6183f0a225f7493f51915b12b7083ec8d5"
+      },
       "weight": 2
     },
     {
@@ -90,16 +96,22 @@
       "updatedAt": "2026-08-21T01:13:38Z",
       "stars": 0,
       "techs": [
+        "React",
         "TypeScript",
-        "CSS",
+        "Node.js",
+        "Express",
+        "Vite",
+        "Prisma",
         "JavaScript",
         "HTML",
-        "Express",
-        "Prisma",
-        "Node.js",
-        "React",
-        "Vite"
+        "CSS"
       ],
+      "lastCommit": {
+        "sha": "ad12544",
+        "message": "atualização vercel",
+        "date": "2026-08-21T01:13:01Z",
+        "url": "https://github.com/JOTAGGE/BlueBoard/commit/ad125440a65227ca7f530975aedf5d32f8cafe9a"
+      },
       "weight": 2
     },
     {
@@ -111,14 +123,20 @@
       "updatedAt": "2026-08-16T18:12:05Z",
       "stars": 0,
       "techs": [
-        "TypeScript",
-        "HTML",
-        "CSS",
         "React",
-        "Vite",
+        "TypeScript",
         "Node.js",
-        "JavaScript"
+        "Vite",
+        "JavaScript",
+        "HTML",
+        "CSS"
       ],
+      "lastCommit": {
+        "sha": "f6529ce",
+        "message": "First Commit",
+        "date": "2026-08-16T18:10:49Z",
+        "url": "https://github.com/JOTAGGE/SITE-GERMANA-PROTOTIPO/commit/f6529cea7d6262bf4da96d5f25732de2a9e42756"
+      },
       "weight": 2
     },
     {
@@ -130,14 +148,20 @@
       "updatedAt": "2026-02-26T14:25:38Z",
       "stars": 0,
       "techs": [
-        "JavaScript",
-        "CSS",
-        "HTML",
         "React",
+        "Node.js",
         "Vite",
         "Tailwind",
-        "Node.js"
+        "JavaScript",
+        "HTML",
+        "CSS"
       ],
+      "lastCommit": {
+        "sha": "d4ff55c",
+        "message": "Protótipo inicial rodando",
+        "date": "2025-08-18T17:55:59Z",
+        "url": "https://github.com/JOTAGGE/Germana-Corpo-Ativo/commit/d4ff55ce1d505832944139b6f0f5e729e0927467"
+      },
       "weight": 1
     },
     {
@@ -149,12 +173,18 @@
       "updatedAt": "2026-09-01T00:35:25Z",
       "stars": 0,
       "techs": [
-        "JavaScript",
+        "React",
         "TypeScript",
-        "Express",
         "Node.js",
-        "React"
+        "Express",
+        "JavaScript"
       ],
+      "lastCommit": {
+        "sha": "575beba",
+        "message": "Update README.md",
+        "date": "2025-06-10T21:29:11Z",
+        "url": "https://github.com/JOTAGGE/Equipe-Glasgow-PDM/commit/575beba782fe314b88423e630ef7fa0cb4cdf3fc"
+      },
       "weight": 1
     }
   ]

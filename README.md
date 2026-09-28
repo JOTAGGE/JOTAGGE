@@ -16,29 +16,31 @@ I build **software, systems and digital products** — from interfaces and front
 
 <!-- DASHBOARD:START -->
 <p align="center">
-  <img src="./assets/dashboard.svg" alt="Live GitHub technology dashboard" width="100%" />
+  <img src="./assets/dashboard.svg" alt="Dashboard de Projetos e Tecnologias Recentes - JOTAGGE" width="100%" />
 </p>
 
-### Current technology signal
+### 🚀 Últimos Projetos Commitados & Stack
 
-<p><img src="https://img.shields.io/badge/JS-f7df1e?style=for-the-badge&logoColor=white" alt="JavaScript"/> <img src="https://img.shields.io/badge/Node-5fa04e?style=for-the-badge&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/React-61dafb?style=for-the-badge&logoColor=white" alt="React"/> <img src="https://img.shields.io/badge/CSS-1572b6?style=for-the-badge&logoColor=white" alt="CSS"/> <img src="https://img.shields.io/badge/TS-3178c6?style=for-the-badge&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/HTML-e34f26?style=for-the-badge&logoColor=white" alt="HTML"/> <img src="https://img.shields.io/badge/Vite-646cff?style=for-the-badge&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Express-ffffff?style=for-the-badge&logoColor=white" alt="Express"/> <img src="https://img.shields.io/badge/Tailwind-06b6d4?style=for-the-badge&logoColor=white" alt="Tailwind"/> <img src="https://img.shields.io/badge/Next.js-ffffff?style=for-the-badge&logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/Prisma-2d3748?style=for-the-badge&logoColor=white" alt="Prisma"/></p>
+| Repositório | Último Commit | Tecnologias Detectadas | Status |
+| :--- | :--- | :--- | :---: |
+| [**ANDY-SAMBERG-GALLERY**](https://github.com/JOTAGGE/ANDY-SAMBERG-GALLERY) | [`ccf87a6`](https://github.com/JOTAGGE/ANDY-SAMBERG-GALLERY/commit/ccf87a6183f0a225f7493f51915b12b7083ec8d5) · **23 Ago 2026**<br/>💬 *celeste e jesse png* | <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/> | ⚡ Recente |
+| [**BlueBoard**](https://github.com/JOTAGGE/BlueBoard) | [`ad12544`](https://github.com/JOTAGGE/BlueBoard/commit/ad125440a65227ca7f530975aedf5d32f8cafe9a) · **21 Ago 2026**<br/>💬 *atualização vercel* | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vitedotjs&logoColor=white" alt="Vite"/> | ⚡ Recente |
+| [**SITE-GERMANA-PROTOTIPO**](https://github.com/JOTAGGE/SITE-GERMANA-PROTOTIPO) | [`f6529ce`](https://github.com/JOTAGGE/SITE-GERMANA-PROTOTIPO/commit/f6529cea7d6262bf4da96d5f25732de2a9e42756) · **16 Ago 2026**<br/>💬 *First Commit* | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vitedotjs&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> | ⚡ Recente |
+| [**Germana-Corpo-Ativo**](https://github.com/JOTAGGE/Germana-Corpo-Ativo)<br/><sub>Site</sub> | [`d4ff55c`](https://github.com/JOTAGGE/Germana-Corpo-Ativo/commit/d4ff55ce1d505832944139b6f0f5e729e0927467) · **18 Ago 2025**<br/>💬 *Protótipo inicial rodando* | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vitedotjs&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> | 📦 Estável |
+| [**Equipe-Glasgow-PDM**](https://github.com/JOTAGGE/Equipe-Glasgow-PDM)<br/><sub>Projeto final de Programação Para Dispositivos.</sub> | [`575beba`](https://github.com/JOTAGGE/Equipe-Glasgow-PDM/commit/575beba782fe314b88423e630ef7fa0cb4cdf3fc) · **10 Jun 2025**<br/>💬 *Update README.md* | <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> | 📦 Estável |
 
-> This stack is **computed from repository contents**, not maintained by hand. Recent repositories receive more weight than old ones.
+### ⚡ Tecnologias em Frequência Ativa
 
-### Recently active projects
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vitedotjs&logoColor=white" alt="Vite"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/> <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+</p>
 
-| Project | Detected stack | Last push |
-|---|---|---|
-| [**ANDY-SAMBERG-GALLERY**](https://github.com/JOTAGGE/ANDY-SAMBERG-GALLERY) | TypeScript · JavaScript · CSS · React · Next.js | 2026-08-23 |
-| [**BlueBoard**](https://github.com/JOTAGGE/BlueBoard) | TypeScript · CSS · JavaScript · HTML · Express | 2026-08-21 |
-| [**SITE-GERMANA-PROTOTIPO**](https://github.com/JOTAGGE/SITE-GERMANA-PROTOTIPO) | TypeScript · HTML · CSS · React · Vite | 2026-08-16 |
-| [**Germana-Corpo-Ativo**](https://github.com/JOTAGGE/Germana-Corpo-Ativo) | JavaScript · CSS · HTML · React · Vite | 2025-08-18 |
-| [**Equipe-Glasgow-PDM**](https://github.com/JOTAGGE/Equipe-Glasgow-PDM) | JavaScript · TypeScript · Express · Node.js · React | 2025-06-10 |
+> ℹ️ *Esta stack e histórico de projetos são **calculados dinamicamente** a partir dos repositórios, analisando código-fonte, manifestos (`package.json`, etc.) e os commits mais recentes.*
 
 <details>
-<summary><strong>Technology telemetry</strong> — expand live ranking</summary>
+<summary><strong>📊 Telemetria detalhada de tecnologias</strong> (expandir ranking completo)</summary>
 
-| # | Technology | Repositories | Signal score |
+| # | Tecnologia | Repositórios | Pontuação Ponderada |
 |---:|---|---:|---:|
 | 1 | **JavaScript** | 5 | 8 |
 | 2 | **Node.js** | 5 | 8 |
@@ -52,15 +54,15 @@ I build **software, systems and digital products** — from interfaces and front
 | 10 | **Next.js** | 1 | 2 |
 | 11 | **Prisma** | 1 | 2 |
 
-Signal score is recency-weighted: projects updated in the last 14 days count more heavily than older repositories.
+*A pontuação é ponderada por recência: projetos com commits nos últimos 14 dias possuem peso 3, até 60 dias possuem peso 2, e projetos mais antigos possuem peso 1.*
 </details>
 
 <details>
-<summary><strong>How this dashboard works</strong></summary>
+<summary><strong>⚙️ Como funciona este dashboard automatizado</strong></summary>
 
-A GitHub Action scans my owned repositories, inspects language data plus project manifests such as <code>package.json</code>, <code>pyproject.toml</code>, <code>requirements.txt</code>, <code>pom.xml</code>, <code>pubspec.yaml</code>, Docker files and infrastructure files, then regenerates this section, the SVG dashboard and <code>data/dashboard.json</code> automatically.
+Um fluxo do GitHub Actions executa diariamente e a cada push, inspecionando os repositórios públicos (e privados quando o segredo <code>PROFILE_DASHBOARD_TOKEN</code> está configurado), analisando linguagens, manifestos de dependência e os últimos commits efetuados.
 
-Private repositories are included only when the optional <code>PROFILE_DASHBOARD_TOKEN</code> repository secret is configured with read access to them. Without it, the dashboard safely analyzes public repositories only.
+A partir desses dados, o script Node.js gera o SVG visual de telemetria, atualiza o arquivo de dados <code>data/dashboard.json</code> e reconstrói este bloco no <code>README.md</code> de forma 100% autônoma.
 </details>
 <!-- DASHBOARD:END -->
 
