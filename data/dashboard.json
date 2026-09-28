@@ -1,57 +1,107 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-09-28T16:24:33.311Z",
-  "visibility": "public",
-  "repoCount": 5,
-  "activeCount": 3,
+  "generatedAt": "2026-09-28T16:33:55.615Z",
+  "visibility": "public+private",
+  "repoCount": 25,
+  "activeCount": 21,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 8,
-      "projects": 5
+      "score": 40,
+      "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 8,
-      "projects": 5
-    },
-    {
-      "name": "React",
-      "score": 8,
-      "projects": 5
+      "score": 40,
+      "projects": 22
     },
     {
       "name": "CSS",
-      "score": 7,
-      "projects": 4
+      "score": 38,
+      "projects": 20
+    },
+    {
+      "name": "React",
+      "score": 37,
+      "projects": 20
     },
     {
       "name": "TypeScript",
+      "score": 35,
+      "projects": 18
+    },
+    {
+      "name": "Vite",
+      "score": 27,
+      "projects": 14
+    },
+    {
+      "name": "HTML",
+      "score": 22,
+      "projects": 12
+    },
+    {
+      "name": "Tailwind",
+      "score": 22,
+      "projects": 12
+    },
+    {
+      "name": "Next.js",
+      "score": 18,
+      "projects": 9
+    },
+    {
+      "name": "Shell",
+      "score": 10,
+      "projects": 5
+    },
+    {
+      "name": "Java",
+      "score": 8,
+      "projects": 4
+    },
+    {
+      "name": "Python",
       "score": 7,
       "projects": 4
     },
     {
-      "name": "HTML",
-      "score": 5,
-      "projects": 3
-    },
-    {
-      "name": "Vite",
-      "score": 5,
+      "name": "GitHub Actions",
+      "score": 6,
       "projects": 3
     },
     {
       "name": "Express",
-      "score": 3,
+      "score": 5,
+      "projects": 3
+    },
+    {
+      "name": "FastAPI",
+      "score": 5,
+      "projects": 3
+    },
+    {
+      "name": "Dart",
+      "score": 4,
       "projects": 2
     },
     {
-      "name": "Tailwind",
-      "score": 3,
+      "name": "Docker",
+      "score": 4,
       "projects": 2
     },
     {
-      "name": "Next.js",
+      "name": "Flutter",
+      "score": 4,
+      "projects": 2
+    },
+    {
+      "name": "CSharp",
+      "score": 2,
+      "projects": 1
+    },
+    {
+      "name": "Firebase",
       "score": 2,
       "projects": 1
     },
@@ -59,9 +109,377 @@
       "name": "Prisma",
       "score": 2,
       "projects": 1
+    },
+    {
+      "name": "Supabase",
+      "score": 2,
+      "projects": 1
     }
   ],
   "projects": [
+    {
+      "name": "BLUELAB-SITE",
+      "url": "https://github.com/JOTAGGE/BLUELAB-SITE",
+      "description": "O Site da Bluelab",
+      "private": true,
+      "pushedAt": "2026-09-11T09:34:03Z",
+      "updatedAt": "2026-09-11T09:34:08Z",
+      "stars": 1,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "JavaScript",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "1c971e3",
+        "message": "feat: add CrachaClientView component and supporting badge assets for interactive ID display",
+        "date": "2026-09-11T09:33:56Z",
+        "url": "https://github.com/JOTAGGE/BLUELAB-SITE/commit/1c971e3caa0b51ade2fe09e25404e8ee165f196a"
+      },
+      "weight": 2
+    },
+    {
+      "name": "ODUU-site",
+      "url": "https://github.com/JOTAGGE/ODUU-site",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-09-10T14:12:46Z",
+      "updatedAt": "2026-09-10T14:18:25Z",
+      "stars": 0,
+      "techs": [
+        "Node.js",
+        "Vite",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "dac8241",
+        "message": "oduu site first commit",
+        "date": "2026-09-10T14:12:40Z",
+        "url": "https://github.com/JOTAGGE/ODUU-site/commit/dac8241503cb96ed76aeb33f76f506b067aca988"
+      },
+      "weight": 2
+    },
+    {
+      "name": "happiptv",
+      "url": "https://github.com/JOTAGGE/happiptv",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-09-10T12:50:38Z",
+      "updatedAt": "2026-09-10T12:52:38Z",
+      "stars": 0,
+      "techs": [
+        "Python",
+        "GitHub Actions"
+      ],
+      "lastCommit": {
+        "sha": "ec8a2fe",
+        "message": "ultimos ajustes",
+        "date": "2026-09-10T12:50:31Z",
+        "url": "https://github.com/JOTAGGE/happiptv/commit/ec8a2fe0270e61d99276c8c25e3d15f823927d9c"
+      },
+      "weight": 2
+    },
+    {
+      "name": "OnDoubtUseUs-app",
+      "url": "https://github.com/JOTAGGE/OnDoubtUseUs-app",
+      "description": "The video and music Downloader ",
+      "private": true,
+      "pushedAt": "2026-09-10T01:52:12Z",
+      "updatedAt": "2026-09-10T01:52:16Z",
+      "stars": 0,
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Vite",
+        "Tailwind",
+        "Docker",
+        "Java",
+        "CSharp",
+        "JavaScript",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "61af704",
+        "message": "mobile design correction",
+        "date": "2026-09-10T01:52:07Z",
+        "url": "https://github.com/JOTAGGE/OnDoubtUseUs-app/commit/61af704a9662dd11e951a4a1b14720bfbbf61441"
+      },
+      "weight": 2
+    },
+    {
+      "name": "KOS-app",
+      "url": "https://github.com/JOTAGGE/KOS-app",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-09-09T23:21:04Z",
+      "updatedAt": "2026-09-09T23:21:09Z",
+      "stars": 0,
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "Firebase",
+        "Java",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "GitHub Actions"
+      ],
+      "lastCommit": {
+        "sha": "913778f",
+        "message": "Merge pull request #1 from JOTAGGE/fix/review-engine-grounding",
+        "date": "2026-09-09T23:21:04Z",
+        "url": "https://github.com/JOTAGGE/KOS-app/commit/913778fea3efff452328af11e76b3034d8311b2f"
+      },
+      "weight": 2
+    },
+    {
+      "name": "JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
+      "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-09-05T21:01:23Z",
+      "updatedAt": "2026-09-05T21:01:27Z",
+      "stars": 0,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Tailwind",
+        "Supabase",
+        "JavaScript",
+        "CSS",
+        "GitHub Actions"
+      ],
+      "lastCommit": {
+        "sha": "6ce03f9",
+        "message": "feat: implement administrative content management system with API endpoints, persistence stores, and dynamic archive routing.",
+        "date": "2026-09-05T21:01:19Z",
+        "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0/commit/6ce03f9ebdba87646d79cb5d6f80c62a030a2e12"
+      },
+      "weight": 2
+    },
+    {
+      "name": "NOMA-SITE",
+      "url": "https://github.com/JOTAGGE/NOMA-SITE",
+      "description": "O site da NOMA",
+      "private": true,
+      "pushedAt": "2026-08-29T17:13:52Z",
+      "updatedAt": "2026-08-29T14:32:31Z",
+      "stars": 0,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Tailwind",
+        "JavaScript",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "6dc2ae3",
+        "message": "adicionado modelo 2",
+        "date": "2026-08-29T14:32:04Z",
+        "url": "https://github.com/JOTAGGE/NOMA-SITE/commit/6dc2ae350dab260ebd1dc8451987294363e05b9f"
+      },
+      "weight": 2
+    },
+    {
+      "name": "MJ-COSTURAS",
+      "url": "https://github.com/JOTAGGE/MJ-COSTURAS",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-29T14:23:37Z",
+      "updatedAt": "2026-08-29T14:23:53Z",
+      "stars": 0,
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "d457be8",
+        "message": "fix(social): update NOMA instagram to @nomaprojectbr",
+        "date": "2026-08-29T14:23:34Z",
+        "url": "https://github.com/JOTAGGE/MJ-COSTURAS/commit/d457be853011ef703a58be093979bace5e28f63e"
+      },
+      "weight": 2
+    },
+    {
+      "name": "BLUE-WEAR-SITE",
+      "url": "https://github.com/JOTAGGE/BLUE-WEAR-SITE",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-29T01:37:01Z",
+      "updatedAt": "2026-08-29T01:37:18Z",
+      "stars": 0,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "Tailwind",
+        "JavaScript",
+        "CSS",
+        "Shell"
+      ],
+      "lastCommit": {
+        "sha": "08dd652",
+        "message": "feat: implement base global styles and landing page structure",
+        "date": "2026-08-29T01:36:57Z",
+        "url": "https://github.com/JOTAGGE/BLUE-WEAR-SITE/commit/08dd652b11405771869499a25ce5f2009aec8e40"
+      },
+      "weight": 2
+    },
+    {
+      "name": "STUDIO-PAULA-SITE",
+      "url": "https://github.com/JOTAGGE/STUDIO-PAULA-SITE",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-28T01:53:16Z",
+      "updatedAt": "2026-08-28T01:53:35Z",
+      "stars": 0,
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "Tailwind",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "b1259f9",
+        "message": "Modelo 1 NOMA",
+        "date": "2026-08-28T01:53:12Z",
+        "url": "https://github.com/JOTAGGE/STUDIO-PAULA-SITE/commit/b1259f9cd93dc1f5166651306f0961e9a26f9817"
+      },
+      "weight": 2
+    },
+    {
+      "name": "Doce-Tamaras-Site",
+      "url": "https://github.com/JOTAGGE/Doce-Tamaras-Site",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-26T14:05:06Z",
+      "updatedAt": "2026-08-26T14:14:09Z",
+      "stars": 0,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "Tailwind",
+        "JavaScript",
+        "CSS",
+        "Shell"
+      ],
+      "lastCommit": {
+        "sha": "108c7b9",
+        "message": "feat: initial commit for Doce Tamaras site ready for Vercel",
+        "date": "2026-08-26T14:04:53Z",
+        "url": "https://github.com/JOTAGGE/Doce-Tamaras-Site/commit/108c7b9b026b8693ab20a93d0999303648123660"
+      },
+      "weight": 2
+    },
+    {
+      "name": "Montage",
+      "url": "https://github.com/JOTAGGE/Montage",
+      "description": "Editor de vídeo da BLUE WHITE",
+      "private": true,
+      "pushedAt": "2026-08-24T23:15:40Z",
+      "updatedAt": "2026-08-26T13:19:10Z",
+      "stars": 0,
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "Python",
+        "FastAPI",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Shell"
+      ],
+      "lastCommit": {
+        "sha": "1f1c897",
+        "message": "feat: initialize monorepo structure with core applications and editor packages",
+        "date": "2026-08-24T23:15:02Z",
+        "url": "https://github.com/JOTAGGE/Montage/commit/1f1c8975695eb9e36f2782db02ebc7096b3bfe6e"
+      },
+      "weight": 2
+    },
+    {
+      "name": "NORDESTE-TATTOO-SITE",
+      "url": "https://github.com/JOTAGGE/NORDESTE-TATTOO-SITE",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-24T10:37:44Z",
+      "updatedAt": "2026-08-26T13:21:03Z",
+      "stars": 0,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "Tailwind",
+        "JavaScript",
+        "CSS",
+        "Shell"
+      ],
+      "lastCommit": {
+        "sha": "4ca32cb",
+        "message": "whatsapp certo",
+        "date": "2026-08-24T10:37:41Z",
+        "url": "https://github.com/JOTAGGE/NORDESTE-TATTOO-SITE/commit/4ca32cbd6a0623af3c13c296bbb4afb64a513aea"
+      },
+      "weight": 2
+    },
+    {
+      "name": "TERRA-OS",
+      "url": "https://github.com/JOTAGGE/TERRA-OS",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-23T18:45:50Z",
+      "updatedAt": "2026-08-26T13:21:35Z",
+      "stars": 0,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "Tailwind",
+        "JavaScript",
+        "CSS",
+        "Shell"
+      ],
+      "lastCommit": {
+        "sha": "6078bc0",
+        "message": "feat: implement terra-dashboard UI and local IndexedDB-based operation queueing system with testing utilities",
+        "date": "2026-08-23T18:45:47Z",
+        "url": "https://github.com/JOTAGGE/TERRA-OS/commit/6078bc0cc41676889078c2dc08f81058f070ffd7"
+      },
+      "weight": 2
+    },
     {
       "name": "ANDY-SAMBERG-GALLERY",
       "url": "https://github.com/JOTAGGE/ANDY-SAMBERG-GALLERY",
@@ -84,6 +502,31 @@
         "message": "celeste e jesse png",
         "date": "2026-08-23T02:17:35Z",
         "url": "https://github.com/JOTAGGE/ANDY-SAMBERG-GALLERY/commit/ccf87a6183f0a225f7493f51915b12b7083ec8d5"
+      },
+      "weight": 2
+    },
+    {
+      "name": "Metrica",
+      "url": "https://github.com/JOTAGGE/Metrica",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-22T22:44:44Z",
+      "updatedAt": "2026-08-22T22:45:01Z",
+      "stars": 1,
+      "techs": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "Flutter",
+        "Dart",
+        "Java",
+        "HTML"
+      ],
+      "lastCommit": {
+        "sha": "8d99ff0",
+        "message": "feat: implement splash screen and user login flow with state management",
+        "date": "2026-08-22T22:44:40Z",
+        "url": "https://github.com/JOTAGGE/Metrica/commit/8d99ff0698690c342c8235dc767b882c1a82f896"
       },
       "weight": 2
     },
@@ -115,6 +558,31 @@
       "weight": 2
     },
     {
+      "name": "S3-Fitness-Site",
+      "url": "https://github.com/JOTAGGE/S3-Fitness-Site",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-20T21:07:32Z",
+      "updatedAt": "2026-08-26T13:22:47Z",
+      "stars": 0,
+      "techs": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Vite",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "14bc221",
+        "message": "pop up 1 semana",
+        "date": "2026-08-20T21:07:23Z",
+        "url": "https://github.com/JOTAGGE/S3-Fitness-Site/commit/14bc221d02ba5b67505a5b4d3cd1ac388134d81b"
+      },
+      "weight": 2
+    },
+    {
       "name": "SITE-GERMANA-PROTOTIPO",
       "url": "https://github.com/JOTAGGE/SITE-GERMANA-PROTOTIPO",
       "description": "",
@@ -138,6 +606,99 @@
         "url": "https://github.com/JOTAGGE/SITE-GERMANA-PROTOTIPO/commit/f6529cea7d6262bf4da96d5f25732de2a9e42756"
       },
       "weight": 2
+    },
+    {
+      "name": "JOTTAGGE-HUB",
+      "url": "https://github.com/JOTAGGE/JOTTAGGE-HUB",
+      "description": "Minha hub. Tudo em um só lugar.",
+      "private": true,
+      "pushedAt": "2026-08-16T01:40:48Z",
+      "updatedAt": "2026-08-26T13:25:01Z",
+      "stars": 0,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Tailwind",
+        "JavaScript",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "6759c61",
+        "message": "atualização de segurança e implementação de recursos como carrosel, capas, autores de posts...",
+        "date": "2026-08-16T01:40:44Z",
+        "url": "https://github.com/JOTAGGE/JOTTAGGE-HUB/commit/6759c61ab9ad5f3e1efd2ecbd0040962a991b055"
+      },
+      "weight": 2
+    },
+    {
+      "name": "KRATOS",
+      "url": "https://github.com/JOTAGGE/KRATOS",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-08-11T21:31:26Z",
+      "updatedAt": "2026-08-26T13:25:33Z",
+      "stars": 0,
+      "techs": [
+        "Flutter",
+        "Dart",
+        "Java",
+        "HTML"
+      ],
+      "lastCommit": {
+        "sha": "34e54b8",
+        "message": "Módulo 2 em progresso",
+        "date": "2026-08-11T21:31:22Z",
+        "url": "https://github.com/JOTAGGE/KRATOS/commit/34e54b804c491e158303c3be511112d7054c90db"
+      },
+      "weight": 2
+    },
+    {
+      "name": "Bluewhite_site",
+      "url": "https://github.com/JOTAGGE/Bluewhite_site",
+      "description": "Site oficial da bw",
+      "private": true,
+      "pushedAt": "2026-03-03T19:50:41Z",
+      "updatedAt": "2026-03-03T19:50:45Z",
+      "stars": 0,
+      "techs": [
+        "React",
+        "Node.js",
+        "Tailwind",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "lastCommit": {
+        "sha": "1da914a",
+        "message": "Atualização e rebranding",
+        "date": "2026-03-03T19:52:15Z",
+        "url": "https://github.com/JOTAGGE/Bluewhite_site/commit/1da914a5b44f195cf2dd43685ffdb3a9e6f440ef"
+      },
+      "weight": 1
+    },
+    {
+      "name": "google-mcp-server",
+      "url": "https://github.com/JOTAGGE/google-mcp-server",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-02-22T16:23:28Z",
+      "updatedAt": "2026-02-22T16:23:31Z",
+      "stars": 0,
+      "techs": [
+        "Node.js",
+        "Python",
+        "FastAPI",
+        "JavaScript"
+      ],
+      "lastCommit": {
+        "sha": "217a7b3",
+        "message": "quase lá index.js",
+        "date": "2026-02-22T16:23:14Z",
+        "url": "https://github.com/JOTAGGE/google-mcp-server/commit/217a7b3714da59db7d097f77b3bd5f59de4bb6cc"
+      },
+      "weight": 1
     },
     {
       "name": "Germana-Corpo-Ativo",

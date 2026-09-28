@@ -1,8 +1,19 @@
 import fs from 'node:fs/promises';
+import { execSync } from 'node:child_process';
+
+function resolveToken() {
+  if (process.env.PROFILE_DASHBOARD_TOKEN) return process.env.PROFILE_DASHBOARD_TOKEN;
+  if (process.env.GITHUB_TOKEN) return process.env.GITHUB_TOKEN;
+  try {
+    const token = execSync('gh auth token', { encoding: 'utf8', stdio: ['pipe', 'pipe', 'ignore'] }).trim();
+    if (token) return token;
+  } catch {}
+  return '';
+}
 
 const USERNAME = process.env.PROFILE_USERNAME || 'JOTAGGE';
-const TOKEN = process.env.PROFILE_DASHBOARD_TOKEN || process.env.GITHUB_TOKEN || '';
-const HAS_PRIVATE_TOKEN = Boolean(process.env.PROFILE_DASHBOARD_TOKEN);
+const TOKEN = resolveToken();
+const HAS_TOKEN = Boolean(TOKEN);
 const API = 'https://api.github.com';
 
 const headers = {
@@ -45,7 +56,7 @@ const techMeta = {
 const techPriority = [
   'Next.js', 'React', 'TypeScript', 'Node.js', 'Express', 'Vite',
   'Tailwind', 'Prisma', 'Supabase', 'PostgreSQL', 'Python', 'FastAPI',
-  'Docker', 'Kubernetes', 'Flutter', 'Dart', 'Java', 'Spring',
+  'Firebase', 'Docker', 'Kubernetes', 'Flutter', 'Dart', 'Java', 'Spring',
   'PHP', 'CSharp', 'JavaScript', 'HTML', 'CSS', 'Shell', 'GitHub Actions', 'Terraform'
 ];
 
@@ -56,19 +67,22 @@ async function gh(path) {
 }
 
 async function listRepos() {
-  const path = HAS_PRIVATE_TOKEN
+  const path = HAS_TOKEN
     ? '/user/repos?affiliation=owner&per_page=100&sort=pushed&direction=desc'
     : `/users/${USERNAME}/repos?per_page=100&sort=pushed&direction=desc&type=owner`;
   const repos = await gh(path);
-  return repos.filter(r => !r.archived && !r.fork && r.name !== USERNAME).slice(0, 40);
+  return repos
+    .filter(r => !r.archived && !r.fork && r.name !== USERNAME)
+    .sort((a, b) => new Date(b.pushed_at || 0).getTime() - new Date(a.pushed_at || 0).getTime())
+    .slice(0, 30);
 }
 
 function daysSince(date) {
   return Math.max(0, (Date.now() - new Date(date).getTime()) / 86400000);
 }
 
-function weightFor(repo) {
-  const d = daysSince(repo.pushed_at || repo.updated_at);
+function weightFor(repo, lastCommitDate) {
+  const d = daysSince(lastCommitDate || repo.pushed_at || repo.updated_at);
   if (d <= 14) return 3;
   if (d <= 60) return 2;
   return 1;
@@ -108,8 +122,8 @@ function detectPackageJson(text, set) {
     if (has('vite')) add(set, 'Vite');
     if (has('@supabase/supabase-js')) add(set, 'Supabase');
     if (has('@prisma/client') || has('prisma')) add(set, 'Prisma');
-    if (has('firebase')) add(set, 'Firebase');
-    if (has('tailwindcss')) add(set, 'Tailwind');
+    if (has('firebase') || has('@capacitor-firebase/authentication')) add(set, 'Firebase');
+    if (has('tailwindcss') || has('@tailwindcss/postcss')) add(set, 'Tailwind');
     if (has('react-native')) add(set, 'React');
     add(set, 'Node.js');
     add(set, 'JavaScript');
@@ -152,7 +166,7 @@ async function getLatestCommit(repo) {
       const date = c.commit?.committer?.date || c.commit?.author?.date || repo.pushed_at;
       return {
         sha: c.sha ? c.sha.slice(0, 7) : '',
-        message: firstLine || 'Update recente',
+        message: firstLine || 'Commit recente',
         date: date,
         url: c.html_url || `${repo.html_url}/commit/${c.sha}`,
       };
@@ -186,7 +200,8 @@ async function analyzeRepo(repo) {
   } catch {}
 
   try {
-    const tree = await gh(`/repos/${repo.full_name}/git/trees/${encodeURIComponent(repo.default_branch)}?recursive=1`);
+    const branch = repo.default_branch || 'main';
+    const tree = await gh(`/repos/${repo.full_name}/git/trees/${encodeURIComponent(branch)}?recursive=1`);
     const files = (tree.tree || []).filter(x => x.type === 'blob');
     for (const f of files) detectFromPath(f.path, techs);
 
@@ -195,7 +210,7 @@ async function analyzeRepo(repo) {
       return n.endsWith('package.json') || n.endsWith('requirements.txt') || n.endsWith('pyproject.toml') ||
         n.endsWith('pom.xml') || n.endsWith('build.gradle') || n.endsWith('build.gradle.kts') ||
         n.endsWith('pubspec.yaml') || /(^|\/)dockerfile$/i.test(f.path) || n.includes('docker-compose');
-    }).slice(0, 12);
+    }).slice(0, 10);
 
     for (const m of manifests) {
       const text = await blobText(repo, m.sha);
@@ -216,7 +231,7 @@ async function analyzeRepo(repo) {
     stars: repo.stargazers_count || 0,
     techs: sortTechsByPriority(techs),
     lastCommit,
-    weight: weightFor(repo),
+    weight: weightFor(repo, lastCommit.date),
   };
 }
 
@@ -383,12 +398,12 @@ function renderSvg(stats) {
 function renderDashboard(stats) {
   const topBadges = stats.tech.slice(0, 10).map(t => markdownBadge(t.name)).join(' ');
 
-  const projectRows = stats.projects.map(p => {
+  const projectRows = stats.projects.slice(0, 10).map(p => {
     const status = getStatusBadge(p.lastCommit.date);
     const privacy = p.private ? ' `🔒 Privado`' : '';
     const desc = p.description ? `<br/><sub>${esc(p.description)}</sub>` : '';
     const dateFormatted = formatDateBR(p.lastCommit.date);
-    const commitMsg = p.lastCommit.message ? `<br/>💬 *${esc(truncate(p.lastCommit.message, 45))}*` : '';
+    const commitMsg = p.lastCommit.message ? `<br/>💬 *${esc(truncate(p.lastCommit.message, 50))}*` : '';
     const shaLink = p.lastCommit.sha ? `[\`${p.lastCommit.sha}\`](${p.lastCommit.url}) · ` : '';
     const techBadges = p.techs.slice(0, 5).map(t => markdownBadge(t)).join(' ') || '<sub>Varredura pendente</sub>';
 
@@ -431,7 +446,7 @@ ${techRows || '| — | Nenhuma tecnologia detectada | — | — |'}
 <details>
 <summary><strong>⚙️ Como funciona este dashboard automatizado</strong></summary>
 
-Um fluxo do GitHub Actions executa diariamente e a cada push, inspecionando os repositórios públicos (e privados quando o segredo <code>PROFILE_DASHBOARD_TOKEN</code> está configurado), analisando linguagens, manifestos de dependência e os últimos commits efetuados.
+Um fluxo do GitHub Actions executa diariamente e a cada push, inspecionando os repositórios (incluindo privados quando o segredo <code>PROFILE_DASHBOARD_TOKEN</code> está configurado), analisando linguagens, manifestos de dependência e os últimos commits efetuados.
 
 A partir desses dados, o script Node.js gera o SVG visual de telemetria, atualiza o arquivo de dados <code>data/dashboard.json</code> e reconstrói este bloco no <code>README.md</code> de forma 100% autônoma.
 </details>
@@ -439,17 +454,30 @@ A partir desses dados, o script Node.js gera o SVG visual de telemetria, atualiz
 }
 
 async function main() {
+  console.log(`Authenticating as ${USERNAME}... Token present: ${HAS_TOKEN}`);
   const repos = await listRepos();
+  console.log(`Fetched ${repos.length} candidates, analyzing commits and manifests...`);
+
   const projects = [];
   for (const repo of repos) {
-    console.log(`Analyzing ${repo.full_name}`);
-    projects.push(await analyzeRepo(repo));
+    process.stdout.write(`Analyzing ${repo.name}... `);
+    const analysis = await analyzeRepo(repo);
+    console.log(`done (last commit: ${analysis.lastCommit.date?.slice(0, 10) || 'unknown'})`);
+    projects.push(analysis);
   }
+
+  // Sort projects strictly by latest commit date descending
+  projects.sort((a, b) => {
+    const dateA = new Date(a.lastCommit?.date || a.pushedAt || 0).getTime();
+    const dateB = new Date(b.lastCommit?.date || b.pushedAt || 0).getTime();
+    return dateB - dateA;
+  });
+
   const tech = aggregate(projects);
   const stats = {
     username: USERNAME,
     generatedAt: new Date().toISOString(),
-    visibility: HAS_PRIVATE_TOKEN ? 'public+private' : 'public',
+    visibility: HAS_TOKEN ? 'public+private' : 'public',
     repoCount: projects.length,
     activeCount: projects.filter(p => daysSince(p.lastCommit?.date || p.pushedAt) <= 60).length,
     tech,
@@ -467,7 +495,7 @@ async function main() {
     ? readme.replace(/<!-- DASHBOARD:START -->[\s\S]*?<!-- DASHBOARD:END -->/, block)
     : `${readme.trim()}\n\n${block}\n`;
   await fs.writeFile('README.md', next);
-  console.log('Dashboard successfully updated!');
+  console.log('Dashboard successfully updated with real committed projects!');
 }
 
 main().catch(err => {
