@@ -1,9 +1,16 @@
 {
   "username": "JOTAGGE",
+<<<<<<< HEAD
   "generatedAt": "2026-09-28T16:33:55.615Z",
   "visibility": "public+private",
   "repoCount": 25,
   "activeCount": 21,
+=======
+  "generatedAt": "2026-09-28T16:26:20.160Z",
+  "visibility": "public",
+  "repoCount": 5,
+  "activeCount": 3,
+>>>>>>> 21bcdc21c6cef223732604dcf96a98e815f90c59
   "tech": [
     {
       "name": "JavaScript",
