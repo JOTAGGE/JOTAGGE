@@ -1,33 +1,33 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-03T14:20:36.422Z",
+  "generatedAt": "2026-10-04T14:49:10.687Z",
   "visibility": "public+private",
-  "repoCount": 25,
-  "activeCount": 21,
+  "repoCount": 26,
+  "activeCount": 22,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 40,
+      "score": 41,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 40,
+      "score": 41,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 38,
+      "score": 39,
       "projects": 20
     },
     {
       "name": "React",
-      "score": 37,
+      "score": 38,
       "projects": 20
     },
     {
       "name": "TypeScript",
-      "score": 35,
+      "score": 36,
       "projects": 18
     },
     {
@@ -36,18 +36,18 @@
       "projects": 14
     },
     {
+      "name": "Tailwind",
+      "score": 23,
+      "projects": 12
+    },
+    {
       "name": "HTML",
       "score": 22,
       "projects": 12
     },
     {
-      "name": "Tailwind",
-      "score": 22,
-      "projects": 12
-    },
-    {
       "name": "Next.js",
-      "score": 18,
+      "score": 19,
       "projects": 9
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "GitHub Actions",
-      "score": 6,
+      "score": 7,
       "projects": 3
     },
     {
@@ -79,6 +79,11 @@
       "name": "FastAPI",
       "score": 5,
       "projects": 3
+    },
+    {
+      "name": "CSharp",
+      "score": 5,
+      "projects": 2
     },
     {
       "name": "Dart",
@@ -96,8 +101,8 @@
       "projects": 2
     },
     {
-      "name": "CSharp",
-      "score": 2,
+      "name": "Supabase",
+      "score": 3,
       "projects": 1
     },
     {
@@ -109,14 +114,55 @@
       "name": "Prisma",
       "score": 2,
       "projects": 1
-    },
-    {
-      "name": "Supabase",
-      "score": 2,
-      "projects": 1
     }
   ],
   "projects": [
+    {
+      "name": "JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
+      "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
+      "description": "",
+      "private": true,
+      "pushedAt": "2026-10-03T20:33:57Z",
+      "updatedAt": "2026-10-03T20:34:01Z",
+      "stars": 0,
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Tailwind",
+        "Supabase",
+        "JavaScript",
+        "CSS",
+        "GitHub Actions"
+      ],
+      "lastCommit": {
+        "sha": "a7ae798",
+        "message": "ia burra colocando mensagem pro dev no front corrigido",
+        "date": "2026-10-03T20:33:52Z",
+        "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0/commit/a7ae798ab119c648ff6a9edbbbc900eca9a6a26a"
+      },
+      "weight": 3
+    },
+    {
+      "name": "Blue-Sleep",
+      "url": "https://github.com/JOTAGGE/Blue-Sleep",
+      "description": "",
+      "private": false,
+      "pushedAt": "2026-10-03T20:25:05Z",
+      "updatedAt": "2026-10-03T19:56:55Z",
+      "stars": 0,
+      "techs": [
+        "CSharp"
+      ],
+      "lastCommit": {
+        "sha": "8c2d5d5",
+        "message": "first commit",
+        "date": "2026-10-03T19:56:35Z",
+        "url": "https://github.com/JOTAGGE/Blue-Sleep/commit/8c2d5d597c5abd9f8ba8bb98b176fc7db2bba4bc"
+      },
+      "weight": 3
+    },
     {
       "name": "BLUELAB-SITE",
       "url": "https://github.com/JOTAGGE/BLUELAB-SITE",
@@ -168,9 +214,9 @@
       "name": "happiptv",
       "url": "https://github.com/JOTAGGE/happiptv",
       "description": "",
-      "private": true,
-      "pushedAt": "2026-09-10T12:50:38Z",
-      "updatedAt": "2026-09-10T12:52:38Z",
+      "private": false,
+      "pushedAt": "2026-10-03T20:30:10Z",
+      "updatedAt": "2026-10-03T19:59:36Z",
       "stars": 0,
       "techs": [
         "Python",
@@ -188,9 +234,9 @@
       "name": "OnDoubtUseUs-app",
       "url": "https://github.com/JOTAGGE/OnDoubtUseUs-app",
       "description": "The video and music Downloader ",
-      "private": true,
-      "pushedAt": "2026-09-10T01:52:12Z",
-      "updatedAt": "2026-09-10T01:52:16Z",
+      "private": false,
+      "pushedAt": "2026-10-03T20:22:26Z",
+      "updatedAt": "2026-10-03T20:00:58Z",
       "stars": 0,
       "techs": [
         "React",
@@ -238,33 +284,6 @@
         "message": "Merge pull request #1 from JOTAGGE/fix/review-engine-grounding",
         "date": "2026-09-09T23:21:04Z",
         "url": "https://github.com/JOTAGGE/KOS-app/commit/913778fea3efff452328af11e76b3034d8311b2f"
-      },
-      "weight": 2
-    },
-    {
-      "name": "JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
-      "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
-      "description": "",
-      "private": true,
-      "pushedAt": "2026-09-05T21:01:23Z",
-      "updatedAt": "2026-09-05T21:01:27Z",
-      "stars": 0,
-      "techs": [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "Tailwind",
-        "Supabase",
-        "JavaScript",
-        "CSS",
-        "GitHub Actions"
-      ],
-      "lastCommit": {
-        "sha": "6ce03f9",
-        "message": "feat: implement administrative content management system with API endpoints, persistence stores, and dynamic archive routing.",
-        "date": "2026-09-05T21:01:19Z",
-        "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0/commit/6ce03f9ebdba87646d79cb5d6f80c62a030a2e12"
       },
       "weight": 2
     },
