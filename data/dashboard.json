@@ -1,9 +1,9 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-10T15:26:05.276Z",
+  "generatedAt": "2026-10-11T15:46:41.789Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 22,
+  "activeCount": 21,
   "tech": [
     {
       "name": "JavaScript",
@@ -42,7 +42,7 @@
     },
     {
       "name": "HTML",
-      "score": 22,
+      "score": 21,
       "projects": 12
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "name": "Java",
-      "score": 8,
+      "score": 7,
       "projects": 4
     },
     {
@@ -86,18 +86,18 @@
       "projects": 2
     },
     {
-      "name": "Dart",
-      "score": 4,
-      "projects": 2
-    },
-    {
       "name": "Docker",
       "score": 4,
       "projects": 2
     },
     {
+      "name": "Dart",
+      "score": 3,
+      "projects": 2
+    },
+    {
       "name": "Flutter",
-      "score": 4,
+      "score": 3,
       "projects": 2
     },
     {
@@ -671,7 +671,7 @@
         "date": "2026-08-11T21:31:22Z",
         "url": "https://github.com/JOTAGGE/KRATOS/commit/34e54b804c491e158303c3be511112d7054c90db"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "Bluewhite_site",
