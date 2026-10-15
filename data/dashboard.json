@@ -1,33 +1,33 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-14T14:33:36.789Z",
+  "generatedAt": "2026-10-15T14:13:34.796Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 21,
+  "activeCount": 20,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 41,
+      "score": 40,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 41,
+      "score": 40,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 39,
-      "projects": 20
-    },
-    {
-      "name": "React",
       "score": 38,
       "projects": 20
     },
     {
+      "name": "React",
+      "score": 37,
+      "projects": 20
+    },
+    {
       "name": "TypeScript",
-      "score": 36,
+      "score": 35,
       "projects": 18
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "Tailwind",
-      "score": 23,
+      "score": 22,
       "projects": 12
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "Next.js",
-      "score": 19,
+      "score": 18,
       "projects": 9
     },
     {
@@ -649,7 +649,7 @@
         "date": "2026-08-16T01:40:44Z",
         "url": "https://github.com/JOTAGGE/JOTTAGGE-HUB/commit/6759c61ab9ad5f3e1efd2ecbd0040962a991b055"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "KRATOS",
