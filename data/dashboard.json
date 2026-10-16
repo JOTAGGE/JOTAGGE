@@ -1,38 +1,38 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-15T14:13:34.796Z",
+  "generatedAt": "2026-10-16T14:00:43.492Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 20,
+  "activeCount": 19,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 40,
+      "score": 39,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 40,
+      "score": 39,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 38,
-      "projects": 20
-    },
-    {
-      "name": "React",
       "score": 37,
       "projects": 20
     },
     {
+      "name": "React",
+      "score": 36,
+      "projects": 20
+    },
+    {
       "name": "TypeScript",
-      "score": 35,
+      "score": 34,
       "projects": 18
     },
     {
       "name": "Vite",
-      "score": 27,
+      "score": 26,
       "projects": 14
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "name": "HTML",
-      "score": 21,
+      "score": 20,
       "projects": 12
     },
     {
@@ -624,7 +624,7 @@
         "date": "2026-08-16T18:10:49Z",
         "url": "https://github.com/JOTAGGE/SITE-GERMANA-PROTOTIPO/commit/f6529cea7d6262bf4da96d5f25732de2a9e42756"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "JOTTAGGE-HUB",
