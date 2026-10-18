@@ -1,33 +1,33 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-17T13:00:57.391Z",
+  "generatedAt": "2026-10-18T13:21:28.223Z",
   "visibility": "public+private",
   "repoCount": 26,
   "activeCount": 19,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 39,
+      "score": 38,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 39,
+      "score": 38,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 37,
-      "projects": 20
-    },
-    {
-      "name": "React",
       "score": 36,
       "projects": 20
     },
     {
+      "name": "React",
+      "score": 35,
+      "projects": 20
+    },
+    {
       "name": "TypeScript",
-      "score": 34,
+      "score": 33,
       "projects": 18
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "Tailwind",
-      "score": 22,
+      "score": 21,
       "projects": 12
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "Next.js",
-      "score": 18,
+      "score": 17,
       "projects": 9
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "GitHub Actions",
-      "score": 7,
+      "score": 6,
       "projects": 3
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "name": "CSharp",
-      "score": 5,
+      "score": 4,
       "projects": 2
     },
     {
@@ -101,17 +101,17 @@
       "projects": 2
     },
     {
-      "name": "Supabase",
-      "score": 3,
-      "projects": 1
-    },
-    {
       "name": "Firebase",
       "score": 2,
       "projects": 1
     },
     {
       "name": "Prisma",
+      "score": 2,
+      "projects": 1
+    },
+    {
+      "name": "Supabase",
       "score": 2,
       "projects": 1
     }
@@ -142,7 +142,7 @@
         "date": "2026-10-03T20:33:52Z",
         "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0/commit/a7ae798ab119c648ff6a9edbbbc900eca9a6a26a"
       },
-      "weight": 3
+      "weight": 2
     },
     {
       "name": "Blue-Sleep",
@@ -161,7 +161,7 @@
         "date": "2026-10-03T19:56:35Z",
         "url": "https://github.com/JOTAGGE/Blue-Sleep/commit/8c2d5d597c5abd9f8ba8bb98b176fc7db2bba4bc"
       },
-      "weight": 3
+      "weight": 2
     },
     {
       "name": "BLUELAB-SITE",
