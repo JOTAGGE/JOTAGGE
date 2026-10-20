@@ -1,38 +1,38 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-19T16:31:16.542Z",
+  "generatedAt": "2026-10-20T14:21:20.192Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 19,
+  "activeCount": 17,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 38,
+      "score": 36,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 38,
+      "score": 36,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 36,
+      "score": 34,
       "projects": 20
     },
     {
       "name": "React",
-      "score": 35,
+      "score": 33,
       "projects": 20
     },
     {
       "name": "TypeScript",
-      "score": 33,
+      "score": 31,
       "projects": 18
     },
     {
       "name": "Vite",
-      "score": 26,
+      "score": 24,
       "projects": 14
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "name": "HTML",
-      "score": 20,
+      "score": 18,
       "projects": 12
     },
     {
@@ -71,13 +71,13 @@
       "projects": 3
     },
     {
-      "name": "Express",
+      "name": "FastAPI",
       "score": 5,
       "projects": 3
     },
     {
-      "name": "FastAPI",
-      "score": 5,
+      "name": "Express",
+      "score": 4,
       "projects": 3
     },
     {
@@ -106,13 +106,13 @@
       "projects": 1
     },
     {
-      "name": "Prisma",
+      "name": "Supabase",
       "score": 2,
       "projects": 1
     },
     {
-      "name": "Supabase",
-      "score": 2,
+      "name": "Prisma",
+      "score": 1,
       "projects": 1
     }
   ],
@@ -574,7 +574,7 @@
         "date": "2026-08-21T01:13:01Z",
         "url": "https://github.com/JOTAGGE/BlueBoard/commit/ad125440a65227ca7f530975aedf5d32f8cafe9a"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "S3-Fitness-Site",
@@ -599,7 +599,7 @@
         "date": "2026-08-20T21:07:23Z",
         "url": "https://github.com/JOTAGGE/S3-Fitness-Site/commit/14bc221d02ba5b67505a5b4d3cd1ac388134d81b"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "SITE-GERMANA-PROTOTIPO",
