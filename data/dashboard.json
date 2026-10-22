@@ -1,33 +1,33 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-21T14:32:04.563Z",
+  "generatedAt": "2026-10-22T14:34:00.310Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 17,
+  "activeCount": 15,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 36,
+      "score": 35,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 36,
+      "score": 35,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 34,
-      "projects": 20
-    },
-    {
-      "name": "React",
       "score": 33,
       "projects": 20
     },
     {
+      "name": "React",
+      "score": 32,
+      "projects": 20
+    },
+    {
       "name": "TypeScript",
-      "score": 31,
+      "score": 30,
       "projects": 18
     },
     {
@@ -37,17 +37,17 @@
     },
     {
       "name": "Tailwind",
-      "score": 21,
+      "score": 20,
       "projects": 12
     },
     {
       "name": "HTML",
-      "score": 18,
+      "score": 17,
       "projects": 12
     },
     {
       "name": "Next.js",
-      "score": 17,
+      "score": 16,
       "projects": 9
     },
     {
@@ -57,12 +57,12 @@
     },
     {
       "name": "Java",
-      "score": 7,
+      "score": 6,
       "projects": 4
     },
     {
       "name": "Python",
-      "score": 7,
+      "score": 6,
       "projects": 4
     },
     {
@@ -71,12 +71,12 @@
       "projects": 3
     },
     {
-      "name": "FastAPI",
-      "score": 5,
+      "name": "Express",
+      "score": 4,
       "projects": 3
     },
     {
-      "name": "Express",
+      "name": "FastAPI",
       "score": 4,
       "projects": 3
     },
@@ -87,17 +87,17 @@
     },
     {
       "name": "Docker",
-      "score": 4,
+      "score": 3,
       "projects": 2
     },
     {
       "name": "Dart",
-      "score": 3,
+      "score": 2,
       "projects": 2
     },
     {
       "name": "Flutter",
-      "score": 3,
+      "score": 2,
       "projects": 2
     },
     {
@@ -522,7 +522,7 @@
         "date": "2026-08-23T02:17:35Z",
         "url": "https://github.com/JOTAGGE/ANDY-SAMBERG-GALLERY/commit/ccf87a6183f0a225f7493f51915b12b7083ec8d5"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "Metrica",
@@ -547,7 +547,7 @@
         "date": "2026-08-22T22:44:40Z",
         "url": "https://github.com/JOTAGGE/Metrica/commit/8d99ff0698690c342c8235dc767b882c1a82f896"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "BlueBoard",
