@@ -1,43 +1,43 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-22T14:34:00.310Z",
+  "generatedAt": "2026-10-23T14:17:26.472Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 15,
+  "activeCount": 13,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 35,
+      "score": 33,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 35,
+      "score": 33,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 33,
+      "score": 31,
       "projects": 20
     },
     {
       "name": "React",
-      "score": 32,
+      "score": 30,
       "projects": 20
     },
     {
       "name": "TypeScript",
-      "score": 30,
+      "score": 28,
       "projects": 18
     },
     {
       "name": "Vite",
-      "score": 24,
+      "score": 22,
       "projects": 14
     },
     {
       "name": "Tailwind",
-      "score": 20,
+      "score": 18,
       "projects": 12
     },
     {
@@ -47,12 +47,12 @@
     },
     {
       "name": "Next.js",
-      "score": 16,
+      "score": 14,
       "projects": 9
     },
     {
       "name": "Shell",
-      "score": 10,
+      "score": 8,
       "projects": 5
     },
     {
@@ -470,7 +470,7 @@
         "date": "2026-08-24T10:37:41Z",
         "url": "https://github.com/JOTAGGE/NORDESTE-TATTOO-SITE/commit/4ca32cbd6a0623af3c13c296bbb4afb64a513aea"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "TERRA-OS",
@@ -497,7 +497,7 @@
         "date": "2026-08-23T18:45:47Z",
         "url": "https://github.com/JOTAGGE/TERRA-OS/commit/6078bc0cc41676889078c2dc08f81058f070ffd7"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "ANDY-SAMBERG-GALLERY",
