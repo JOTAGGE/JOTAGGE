@@ -1,38 +1,38 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-23T14:17:26.472Z",
+  "generatedAt": "2026-10-24T13:23:03.620Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 13,
+  "activeCount": 12,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 33,
+      "score": 32,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 33,
+      "score": 32,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 31,
-      "projects": 20
-    },
-    {
-      "name": "React",
       "score": 30,
       "projects": 20
     },
     {
+      "name": "React",
+      "score": 29,
+      "projects": 20
+    },
+    {
       "name": "TypeScript",
-      "score": 28,
+      "score": 27,
       "projects": 18
     },
     {
       "name": "Vite",
-      "score": 22,
+      "score": 21,
       "projects": 14
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "name": "HTML",
-      "score": 17,
+      "score": 16,
       "projects": 12
     },
     {
@@ -52,16 +52,11 @@
     },
     {
       "name": "Shell",
-      "score": 8,
+      "score": 7,
       "projects": 5
     },
     {
       "name": "Java",
-      "score": 6,
-      "projects": 4
-    },
-    {
-      "name": "Python",
       "score": 6,
       "projects": 4
     },
@@ -71,12 +66,12 @@
       "projects": 3
     },
     {
-      "name": "Express",
-      "score": 4,
-      "projects": 3
+      "name": "Python",
+      "score": 5,
+      "projects": 4
     },
     {
-      "name": "FastAPI",
+      "name": "Express",
       "score": 4,
       "projects": 3
     },
@@ -84,6 +79,11 @@
       "name": "CSharp",
       "score": 4,
       "projects": 2
+    },
+    {
+      "name": "FastAPI",
+      "score": 3,
+      "projects": 3
     },
     {
       "name": "Docker",
@@ -443,7 +443,7 @@
         "date": "2026-08-24T23:15:02Z",
         "url": "https://github.com/JOTAGGE/Montage/commit/1f1c8975695eb9e36f2782db02ebc7096b3bfe6e"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "NORDESTE-TATTOO-SITE",
