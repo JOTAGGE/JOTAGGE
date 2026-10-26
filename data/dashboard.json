@@ -1,43 +1,43 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-25T13:44:54.223Z",
+  "generatedAt": "2026-10-26T16:11:02.860Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 12,
+  "activeCount": 11,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 32,
+      "score": 31,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 32,
+      "score": 31,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 30,
-      "projects": 20
-    },
-    {
-      "name": "React",
       "score": 29,
       "projects": 20
     },
     {
+      "name": "React",
+      "score": 28,
+      "projects": 20
+    },
+    {
       "name": "TypeScript",
-      "score": 27,
+      "score": 26,
       "projects": 18
     },
     {
       "name": "Vite",
-      "score": 21,
+      "score": 20,
       "projects": 14
     },
     {
       "name": "Tailwind",
-      "score": 18,
+      "score": 17,
       "projects": 12
     },
     {
@@ -47,12 +47,12 @@
     },
     {
       "name": "Next.js",
-      "score": 14,
+      "score": 13,
       "projects": 9
     },
     {
       "name": "Shell",
-      "score": 7,
+      "score": 6,
       "projects": 5
     },
     {
@@ -415,7 +415,7 @@
         "date": "2026-08-26T14:04:53Z",
         "url": "https://github.com/JOTAGGE/Doce-Tamaras-Site/commit/108c7b9b026b8693ab20a93d0999303648123660"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "Montage",
