@@ -1,48 +1,48 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-26T16:11:02.860Z",
+  "generatedAt": "2026-10-27T15:24:58.101Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 11,
+  "activeCount": 10,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 31,
+      "score": 30,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 31,
+      "score": 30,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 29,
-      "projects": 20
-    },
-    {
-      "name": "React",
       "score": 28,
       "projects": 20
     },
     {
+      "name": "React",
+      "score": 27,
+      "projects": 20
+    },
+    {
       "name": "TypeScript",
-      "score": 26,
+      "score": 25,
       "projects": 18
     },
     {
       "name": "Vite",
-      "score": 20,
+      "score": 19,
       "projects": 14
     },
     {
       "name": "Tailwind",
-      "score": 17,
+      "score": 16,
       "projects": 12
     },
     {
       "name": "HTML",
-      "score": 16,
+      "score": 15,
       "projects": 12
     },
     {
@@ -388,7 +388,7 @@
         "date": "2026-08-28T01:53:12Z",
         "url": "https://github.com/JOTAGGE/STUDIO-PAULA-SITE/commit/b1259f9cd93dc1f5166651306f0961e9a26f9817"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "Doce-Tamaras-Site",
