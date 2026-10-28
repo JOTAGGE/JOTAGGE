@@ -1,59 +1,54 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-10-27T15:24:58.101Z",
+  "generatedAt": "2026-10-28T16:08:05.511Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 10,
+  "activeCount": 7,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 30,
+      "score": 27,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 30,
+      "score": 27,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 28,
+      "score": 25,
       "projects": 20
     },
     {
       "name": "React",
-      "score": 27,
+      "score": 24,
       "projects": 20
     },
     {
       "name": "TypeScript",
-      "score": 25,
+      "score": 22,
       "projects": 18
     },
     {
       "name": "Vite",
-      "score": 19,
+      "score": 17,
       "projects": 14
     },
     {
-      "name": "Tailwind",
-      "score": 16,
+      "name": "HTML",
+      "score": 14,
       "projects": 12
     },
     {
-      "name": "HTML",
-      "score": 15,
+      "name": "Tailwind",
+      "score": 14,
       "projects": 12
     },
     {
       "name": "Next.js",
-      "score": 13,
+      "score": 11,
       "projects": 9
-    },
-    {
-      "name": "Shell",
-      "score": 6,
-      "projects": 5
     },
     {
       "name": "Java",
@@ -64,6 +59,11 @@
       "name": "GitHub Actions",
       "score": 6,
       "projects": 3
+    },
+    {
+      "name": "Shell",
+      "score": 5,
+      "projects": 5
     },
     {
       "name": "Python",
@@ -310,7 +310,7 @@
         "date": "2026-08-29T14:32:04Z",
         "url": "https://github.com/JOTAGGE/NOMA-SITE/commit/6dc2ae350dab260ebd1dc8451987294363e05b9f"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "MJ-COSTURAS",
@@ -335,7 +335,7 @@
         "date": "2026-08-29T14:23:34Z",
         "url": "https://github.com/JOTAGGE/MJ-COSTURAS/commit/d457be853011ef703a58be093979bace5e28f63e"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "BLUE-WEAR-SITE",
@@ -362,7 +362,7 @@
         "date": "2026-08-29T01:36:57Z",
         "url": "https://github.com/JOTAGGE/BLUE-WEAR-SITE/commit/08dd652b11405771869499a25ce5f2009aec8e40"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "STUDIO-PAULA-SITE",
