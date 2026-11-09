@@ -1,48 +1,48 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-11-08T16:02:10.946Z",
+  "generatedAt": "2026-11-09T19:54:09.885Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 7,
+  "activeCount": 3,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 27,
+      "score": 24,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 27,
+      "score": 24,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 25,
+      "score": 22,
       "projects": 20
     },
     {
       "name": "React",
-      "score": 24,
+      "score": 22,
       "projects": 20
     },
     {
       "name": "TypeScript",
-      "score": 22,
+      "score": 20,
       "projects": 18
     },
     {
       "name": "Vite",
-      "score": 17,
+      "score": 14,
       "projects": 14
     },
     {
-      "name": "HTML",
-      "score": 14,
+      "name": "Tailwind",
+      "score": 13,
       "projects": 12
     },
     {
-      "name": "Tailwind",
-      "score": 14,
+      "name": "HTML",
+      "score": 12,
       "projects": 12
     },
     {
@@ -51,34 +51,29 @@
       "projects": 9
     },
     {
-      "name": "Java",
-      "score": 6,
-      "projects": 4
-    },
-    {
-      "name": "GitHub Actions",
-      "score": 6,
-      "projects": 3
-    },
-    {
       "name": "Shell",
       "score": 5,
       "projects": 5
     },
     {
-      "name": "Python",
-      "score": 5,
+      "name": "Java",
+      "score": 4,
       "projects": 4
     },
     {
-      "name": "Express",
+      "name": "Python",
+      "score": 4,
+      "projects": 4
+    },
+    {
+      "name": "GitHub Actions",
       "score": 4,
       "projects": 3
     },
     {
-      "name": "CSharp",
-      "score": 4,
-      "projects": 2
+      "name": "Express",
+      "score": 3,
+      "projects": 3
     },
     {
       "name": "FastAPI",
@@ -86,7 +81,7 @@
       "projects": 3
     },
     {
-      "name": "Docker",
+      "name": "CSharp",
       "score": 3,
       "projects": 2
     },
@@ -96,18 +91,23 @@
       "projects": 2
     },
     {
+      "name": "Docker",
+      "score": 2,
+      "projects": 2
+    },
+    {
       "name": "Flutter",
       "score": 2,
       "projects": 2
     },
     {
-      "name": "Firebase",
+      "name": "Supabase",
       "score": 2,
       "projects": 1
     },
     {
-      "name": "Supabase",
-      "score": 2,
+      "name": "Firebase",
+      "score": 1,
       "projects": 1
     },
     {
@@ -208,7 +208,7 @@
         "date": "2026-09-10T14:12:40Z",
         "url": "https://github.com/JOTAGGE/ODUU-site/commit/dac8241503cb96ed76aeb33f76f506b067aca988"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "happiptv",
@@ -228,7 +228,7 @@
         "date": "2026-09-10T12:50:31Z",
         "url": "https://github.com/JOTAGGE/happiptv/commit/ec8a2fe0270e61d99276c8c25e3d15f823927d9c"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "OnDoubtUseUs-app",
@@ -257,7 +257,7 @@
         "date": "2026-09-10T01:52:07Z",
         "url": "https://github.com/JOTAGGE/OnDoubtUseUs-app/commit/61af704a9662dd11e951a4a1b14720bfbbf61441"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "KOS-app",
@@ -285,7 +285,7 @@
         "date": "2026-09-09T23:21:04Z",
         "url": "https://github.com/JOTAGGE/KOS-app/commit/913778fea3efff452328af11e76b3034d8311b2f"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "NOMA-SITE",
