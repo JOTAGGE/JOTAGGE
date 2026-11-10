@@ -1,33 +1,33 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-11-09T19:54:09.885Z",
+  "generatedAt": "2026-11-10T17:06:51.223Z",
   "visibility": "public+private",
   "repoCount": 26,
-  "activeCount": 3,
+  "activeCount": 2,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 24,
+      "score": 23,
       "projects": 22
     },
     {
       "name": "Node.js",
-      "score": 24,
+      "score": 23,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 22,
+      "score": 21,
       "projects": 20
     },
     {
       "name": "React",
-      "score": 22,
+      "score": 21,
       "projects": 20
     },
     {
       "name": "TypeScript",
-      "score": 20,
+      "score": 19,
       "projects": 18
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "Next.js",
-      "score": 11,
+      "score": 10,
       "projects": 9
     },
     {
@@ -185,7 +185,7 @@
         "date": "2026-09-11T09:33:56Z",
         "url": "https://github.com/JOTAGGE/BLUELAB-SITE/commit/1c971e3caa0b51ade2fe09e25404e8ee165f196a"
       },
-      "weight": 2
+      "weight": 1
     },
     {
       "name": "ODUU-site",
