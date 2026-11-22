@@ -1,14 +1,14 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-11-21T16:50:06.809Z",
+  "generatedAt": "2026-11-22T10:37:13.301Z",
   "visibility": "public+private",
-  "repoCount": 26,
-  "activeCount": 2,
+  "repoCount": 27,
+  "activeCount": 3,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 23,
-      "projects": 22
+      "score": 26,
+      "projects": 23
     },
     {
       "name": "Node.js",
@@ -31,6 +31,11 @@
       "projects": 18
     },
     {
+      "name": "HTML",
+      "score": 15,
+      "projects": 13
+    },
+    {
       "name": "Vite",
       "score": 14,
       "projects": 14
@@ -41,14 +46,19 @@
       "projects": 12
     },
     {
-      "name": "HTML",
-      "score": 12,
-      "projects": 12
-    },
-    {
       "name": "Next.js",
       "score": 10,
       "projects": 9
+    },
+    {
+      "name": "Python",
+      "score": 7,
+      "projects": 5
+    },
+    {
+      "name": "FastAPI",
+      "score": 6,
+      "projects": 4
     },
     {
       "name": "Shell",
@@ -61,22 +71,12 @@
       "projects": 4
     },
     {
-      "name": "Python",
-      "score": 4,
-      "projects": 4
-    },
-    {
       "name": "GitHub Actions",
       "score": 4,
       "projects": 3
     },
     {
       "name": "Express",
-      "score": 3,
-      "projects": 3
-    },
-    {
-      "name": "FastAPI",
       "score": 3,
       "projects": 3
     },
@@ -117,6 +117,28 @@
     }
   ],
   "projects": [
+    {
+      "name": "SIMULIA",
+      "url": "https://github.com/JOTAGGE/SIMULIA",
+      "description": "Uma plataforma de simulados gerados por ia",
+      "private": true,
+      "pushedAt": "2026-11-22T02:22:52Z",
+      "updatedAt": "2026-11-22T01:51:52Z",
+      "stars": 0,
+      "techs": [
+        "Python",
+        "FastAPI",
+        "JavaScript",
+        "HTML"
+      ],
+      "lastCommit": {
+        "sha": "1cb6b42",
+        "message": "vercel proxy render",
+        "date": "2026-11-22T02:22:43Z",
+        "url": "https://github.com/JOTAGGE/SIMULIA/commit/1cb6b4279dbeef11ad122c91b85e03be55f8f391"
+      },
+      "weight": 3
+    },
     {
       "name": "JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
       "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
