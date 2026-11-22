@@ -1,24 +1,24 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-11-22T17:13:24.995Z",
+  "generatedAt": "2026-11-22T23:23:25.587Z",
   "visibility": "public+private",
   "repoCount": 28,
   "activeCount": 4,
   "tech": [
     {
       "name": "JavaScript",
+      "score": 30,
+      "projects": 24
+    },
+    {
+      "name": "Node.js",
       "score": 27,
       "projects": 23
     },
     {
-      "name": "Node.js",
-      "score": 24,
-      "projects": 22
-    },
-    {
       "name": "CSS",
-      "score": 22,
-      "projects": 20
+      "score": 25,
+      "projects": 21
     },
     {
       "name": "React",
@@ -32,8 +32,8 @@
     },
     {
       "name": "HTML",
-      "score": 15,
-      "projects": 13
+      "score": 18,
+      "projects": 14
     },
     {
       "name": "Vite",
@@ -51,6 +51,11 @@
       "projects": 9
     },
     {
+      "name": "GitHub Actions",
+      "score": 8,
+      "projects": 4
+    },
+    {
       "name": "Python",
       "score": 7,
       "projects": 5
@@ -64,11 +69,6 @@
       "name": "Shell",
       "score": 5,
       "projects": 5
-    },
-    {
-      "name": "GitHub Actions",
-      "score": 5,
-      "projects": 3
     },
     {
       "name": "Java",
@@ -118,11 +118,56 @@
   ],
   "projects": [
     {
+      "name": "SIMULIA",
+      "url": "https://github.com/JOTAGGE/SIMULIA",
+      "description": "Uma plataforma de simulados gerados por ia",
+      "private": true,
+      "pushedAt": "2026-11-22T23:21:49Z",
+      "updatedAt": "2026-11-22T01:51:52Z",
+      "stars": 0,
+      "techs": [
+        "Python",
+        "FastAPI",
+        "JavaScript",
+        "HTML"
+      ],
+      "lastCommit": {
+        "sha": "e8feb73",
+        "message": "persistencia edital",
+        "date": "2026-11-22T23:21:44Z",
+        "url": "https://github.com/JOTAGGE/SIMULIA/commit/e8feb7378cba3d9ee382706708fb807e81e45906"
+      },
+      "weight": 3
+    },
+    {
+      "name": "METRICA-minimal",
+      "url": "https://github.com/JOTAGGE/METRICA-minimal",
+      "description": "O aplicativo METRICA agora completo e minimalista",
+      "private": true,
+      "pushedAt": "2026-11-22T22:55:09Z",
+      "updatedAt": "2026-11-22T22:55:13Z",
+      "stars": 0,
+      "techs": [
+        "Node.js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "GitHub Actions"
+      ],
+      "lastCommit": {
+        "sha": "77f25de",
+        "message": "Prototipo",
+        "date": "2026-11-22T22:54:53Z",
+        "url": "https://github.com/JOTAGGE/METRICA-minimal/commit/77f25de3eb9a9bff1f2d863bcb46ff44ccb23d73"
+      },
+      "weight": 3
+    },
+    {
       "name": "JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
       "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
       "description": "",
       "private": true,
-      "pushedAt": "2026-11-22T13:52:53Z",
+      "pushedAt": "2026-11-22T17:52:01Z",
       "updatedAt": "2026-10-03T20:34:01Z",
       "stars": 0,
       "techs": [
@@ -137,49 +182,10 @@
         "GitHub Actions"
       ],
       "lastCommit": {
-        "sha": "e919185",
-        "message": "music player",
-        "date": "2026-11-22T13:52:48Z",
-        "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0/commit/e9191852fb736477486dbc70307dbcb3ee30353e"
-      },
-      "weight": 3
-    },
-    {
-      "name": "SIMULIA",
-      "url": "https://github.com/JOTAGGE/SIMULIA",
-      "description": "Uma plataforma de simulados gerados por ia",
-      "private": true,
-      "pushedAt": "2026-11-22T12:16:45Z",
-      "updatedAt": "2026-11-22T01:51:52Z",
-      "stars": 0,
-      "techs": [
-        "Python",
-        "FastAPI",
-        "JavaScript",
-        "HTML"
-      ],
-      "lastCommit": {
-        "sha": "af70bb6",
-        "message": "refactor: modularize ai generator config, schemas, and selection strategy",
-        "date": "2026-11-22T12:16:41Z",
-        "url": "https://github.com/JOTAGGE/SIMULIA/commit/af70bb6ad45c69df3e95e105d2c1389635129e08"
-      },
-      "weight": 3
-    },
-    {
-      "name": "METRICA-minimal",
-      "url": "https://github.com/JOTAGGE/METRICA-minimal",
-      "description": "O aplicativo METRICA agora completo e minimalista",
-      "private": true,
-      "pushedAt": "2026-11-22T10:53:17Z",
-      "updatedAt": "2026-11-22T10:53:17Z",
-      "stars": 0,
-      "techs": [],
-      "lastCommit": {
-        "sha": "",
-        "message": "Último push sincronizado",
-        "date": "2026-11-22T10:53:17Z",
-        "url": "https://github.com/JOTAGGE/METRICA-minimal/commits"
+        "sha": "3bb69c3",
+        "message": "4x1 button & layout",
+        "date": "2026-11-22T17:51:57Z",
+        "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0/commit/3bb69c3861c4e54925a1e39bfaf70775e3a34adf"
       },
       "weight": 3
     },
