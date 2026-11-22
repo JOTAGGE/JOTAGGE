@@ -1,33 +1,33 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-11-22T10:37:13.301Z",
+  "generatedAt": "2026-11-22T14:39:09.949Z",
   "visibility": "public+private",
-  "repoCount": 27,
-  "activeCount": 3,
+  "repoCount": 28,
+  "activeCount": 4,
   "tech": [
     {
       "name": "JavaScript",
-      "score": 26,
+      "score": 27,
       "projects": 23
     },
     {
       "name": "Node.js",
-      "score": 23,
+      "score": 24,
       "projects": 22
     },
     {
       "name": "CSS",
-      "score": 21,
+      "score": 22,
       "projects": 20
     },
     {
       "name": "React",
-      "score": 21,
+      "score": 22,
       "projects": 20
     },
     {
       "name": "TypeScript",
-      "score": 19,
+      "score": 20,
       "projects": 18
     },
     {
@@ -42,12 +42,12 @@
     },
     {
       "name": "Tailwind",
-      "score": 13,
+      "score": 14,
       "projects": 12
     },
     {
       "name": "Next.js",
-      "score": 10,
+      "score": 11,
       "projects": 9
     },
     {
@@ -66,14 +66,14 @@
       "projects": 5
     },
     {
+      "name": "GitHub Actions",
+      "score": 5,
+      "projects": 3
+    },
+    {
       "name": "Java",
       "score": 4,
       "projects": 4
-    },
-    {
-      "name": "GitHub Actions",
-      "score": 4,
-      "projects": 3
     },
     {
       "name": "Express",
@@ -84,6 +84,11 @@
       "name": "CSharp",
       "score": 3,
       "projects": 2
+    },
+    {
+      "name": "Supabase",
+      "score": 3,
+      "projects": 1
     },
     {
       "name": "Dart",
@@ -101,11 +106,6 @@
       "projects": 2
     },
     {
-      "name": "Supabase",
-      "score": 2,
-      "projects": 1
-    },
-    {
       "name": "Firebase",
       "score": 1,
       "projects": 1
@@ -118,33 +118,11 @@
   ],
   "projects": [
     {
-      "name": "SIMULIA",
-      "url": "https://github.com/JOTAGGE/SIMULIA",
-      "description": "Uma plataforma de simulados gerados por ia",
-      "private": true,
-      "pushedAt": "2026-11-22T02:22:52Z",
-      "updatedAt": "2026-11-22T01:51:52Z",
-      "stars": 0,
-      "techs": [
-        "Python",
-        "FastAPI",
-        "JavaScript",
-        "HTML"
-      ],
-      "lastCommit": {
-        "sha": "1cb6b42",
-        "message": "vercel proxy render",
-        "date": "2026-11-22T02:22:43Z",
-        "url": "https://github.com/JOTAGGE/SIMULIA/commit/1cb6b4279dbeef11ad122c91b85e03be55f8f391"
-      },
-      "weight": 3
-    },
-    {
       "name": "JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
       "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0",
       "description": "",
       "private": true,
-      "pushedAt": "2026-10-03T20:33:57Z",
+      "pushedAt": "2026-11-22T13:52:53Z",
       "updatedAt": "2026-10-03T20:34:01Z",
       "stars": 0,
       "techs": [
@@ -159,12 +137,51 @@
         "GitHub Actions"
       ],
       "lastCommit": {
-        "sha": "a7ae798",
-        "message": "ia burra colocando mensagem pro dev no front corrigido",
-        "date": "2026-10-03T20:33:52Z",
-        "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0/commit/a7ae798ab119c648ff6a9edbbbc900eca9a6a26a"
+        "sha": "e919185",
+        "message": "music player",
+        "date": "2026-11-22T13:52:48Z",
+        "url": "https://github.com/JOTAGGE/JOTTAGGE-DIGITAL-ARCHIVE-v1.0/commit/e9191852fb736477486dbc70307dbcb3ee30353e"
       },
-      "weight": 2
+      "weight": 3
+    },
+    {
+      "name": "SIMULIA",
+      "url": "https://github.com/JOTAGGE/SIMULIA",
+      "description": "Uma plataforma de simulados gerados por ia",
+      "private": true,
+      "pushedAt": "2026-11-22T12:16:45Z",
+      "updatedAt": "2026-11-22T01:51:52Z",
+      "stars": 0,
+      "techs": [
+        "Python",
+        "FastAPI",
+        "JavaScript",
+        "HTML"
+      ],
+      "lastCommit": {
+        "sha": "af70bb6",
+        "message": "refactor: modularize ai generator config, schemas, and selection strategy",
+        "date": "2026-11-22T12:16:41Z",
+        "url": "https://github.com/JOTAGGE/SIMULIA/commit/af70bb6ad45c69df3e95e105d2c1389635129e08"
+      },
+      "weight": 3
+    },
+    {
+      "name": "METRICA-minimal",
+      "url": "https://github.com/JOTAGGE/METRICA-minimal",
+      "description": "O aplicativo METRICA agora completo e minimalista",
+      "private": true,
+      "pushedAt": "2026-11-22T10:53:17Z",
+      "updatedAt": "2026-11-22T10:53:17Z",
+      "stars": 0,
+      "techs": [],
+      "lastCommit": {
+        "sha": "",
+        "message": "Último push sincronizado",
+        "date": "2026-11-22T10:53:17Z",
+        "url": "https://github.com/JOTAGGE/METRICA-minimal/commits"
+      },
+      "weight": 3
     },
     {
       "name": "Blue-Sleep",
