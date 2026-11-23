@@ -1,6 +1,6 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-11-22T23:23:25.587Z",
+  "generatedAt": "2026-11-23T21:30:21.365Z",
   "visibility": "public+private",
   "repoCount": 28,
   "activeCount": 4,
@@ -122,7 +122,7 @@
       "url": "https://github.com/JOTAGGE/SIMULIA",
       "description": "Uma plataforma de simulados gerados por ia",
       "private": true,
-      "pushedAt": "2026-11-22T23:21:49Z",
+      "pushedAt": "2026-11-23T03:02:46Z",
       "updatedAt": "2026-11-22T01:51:52Z",
       "stars": 0,
       "techs": [
@@ -132,10 +132,10 @@
         "HTML"
       ],
       "lastCommit": {
-        "sha": "e8feb73",
-        "message": "persistencia edital",
-        "date": "2026-11-22T23:21:44Z",
-        "url": "https://github.com/JOTAGGE/SIMULIA/commit/e8feb7378cba3d9ee382706708fb807e81e45906"
+        "sha": "233c077",
+        "message": "refactor: improve model quota bucket grouping and fallback strategy in ai generator",
+        "date": "2026-11-23T03:02:42Z",
+        "url": "https://github.com/JOTAGGE/SIMULIA/commit/233c0770ef928c361c8920c03e334b19c3fa2e36"
       },
       "weight": 3
     },
