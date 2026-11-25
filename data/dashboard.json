@@ -1,6 +1,6 @@
 {
   "username": "JOTAGGE",
-  "generatedAt": "2026-11-24T20:12:48.172Z",
+  "generatedAt": "2026-11-25T19:23:10.145Z",
   "visibility": "public+private",
   "repoCount": 28,
   "activeCount": 4,
@@ -76,6 +76,11 @@
       "projects": 4
     },
     {
+      "name": "Firebase",
+      "score": 4,
+      "projects": 2
+    },
+    {
       "name": "Express",
       "score": 3,
       "projects": 3
@@ -106,17 +111,36 @@
       "projects": 2
     },
     {
-      "name": "Firebase",
-      "score": 1,
-      "projects": 1
-    },
-    {
       "name": "Prisma",
       "score": 1,
       "projects": 1
     }
   ],
   "projects": [
+    {
+      "name": "METRICA-minimal",
+      "url": "https://github.com/JOTAGGE/METRICA-minimal",
+      "description": "O aplicativo METRICA agora completo e minimalista",
+      "private": true,
+      "pushedAt": "2026-11-25T05:28:23Z",
+      "updatedAt": "2026-11-25T04:52:57Z",
+      "stars": 0,
+      "techs": [
+        "Node.js",
+        "Firebase",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "GitHub Actions"
+      ],
+      "lastCommit": {
+        "sha": "0ce428c",
+        "message": "chore: add VS Code settings for Java build configuration updates",
+        "date": "2026-11-25T05:28:18Z",
+        "url": "https://github.com/JOTAGGE/METRICA-minimal/commit/0ce428c8d4fff3f90c4e41bcfb41b651d4e66af2"
+      },
+      "weight": 3
+    },
     {
       "name": "SIMULIA",
       "url": "https://github.com/JOTAGGE/SIMULIA",
@@ -136,29 +160,6 @@
         "message": "refactor: improve model quota bucket grouping and fallback strategy in ai generator",
         "date": "2026-11-23T03:02:42Z",
         "url": "https://github.com/JOTAGGE/SIMULIA/commit/233c0770ef928c361c8920c03e334b19c3fa2e36"
-      },
-      "weight": 3
-    },
-    {
-      "name": "METRICA-minimal",
-      "url": "https://github.com/JOTAGGE/METRICA-minimal",
-      "description": "O aplicativo METRICA agora completo e minimalista",
-      "private": true,
-      "pushedAt": "2026-11-22T22:55:09Z",
-      "updatedAt": "2026-11-22T22:55:13Z",
-      "stars": 0,
-      "techs": [
-        "Node.js",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "GitHub Actions"
-      ],
-      "lastCommit": {
-        "sha": "77f25de",
-        "message": "Prototipo",
-        "date": "2026-11-22T22:54:53Z",
-        "url": "https://github.com/JOTAGGE/METRICA-minimal/commit/77f25de3eb9a9bff1f2d863bcb46ff44ccb23d73"
       },
       "weight": 3
     },
